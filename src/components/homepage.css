@@ -1,0 +1,296 @@
+.Home-logo {
+    height: 4em;
+    float: left;
+}
+
+.navmain {
+    padding: 5% 20% 2% 20%;
+    
+}
+
+
+.taskbar {
+    padding-left: 10%;
+    padding-right: 5%
+}
+
+.buttons {
+    float: right
+}
+
+.form-fix {
+    display: inline-block;
+}
+
+.landingsec {
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url('./media/landimg.jpeg');
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200%;
+    width: 100%;
+}
+
+.landimg {
+    text-align: center;
+    height: 70%;
+    width: 100%;
+    padding-bottom: 7%;
+}
+
+.landingsecmid {
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+
+
+}
+
+.headertext {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    font-size: 250%;
+    font-weight: bold;
+    color: #3D3D3D;
+    transform: translateX(-50%);
+    border-bottom: 11px solid #F1D108;
+}
+
+.expsec {
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url('./media/exp.jpg');
+    background-blend-mode: luminosity;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    padding: 0% 15% 0% 15%;
+    height: 50em;
+    width: 100%;
+}
+
+.expheader {
+    /* align-content: center; */
+    /* justify-content: right; */
+    /* display: flexbox; */
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.exptext {
+    
+    padding-left: 0%;
+    font-size: 1.8em;
+}
+
+.txt1 {
+    color: #474646;
+}
+
+.txt2 {
+    color: rgb(109, 103, 103)
+}
+
+.expflex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.vids {
+    /* text-align: right; */
+    
+}
+
+iframe {
+    width: 32em;
+    height: 25em
+}
+
+@media (max-width: 2000px) and (min-width: 1300px) {
+    iframe {
+        width: 40em;
+        height: 25em
+    }
+}
+
+.expdiv {
+    /* width: 50% */
+}
+
+.expcard {
+    margin: 2% 20% 0 0%;    
+    height: 12em;
+    text-align: center;
+    background-color: white
+}
+
+.strip {
+    background-color: yellow;
+    margin: 2% 20% 0 0%;    
+    height: 1.2em;
+    text-align: center;
+}
+
+#expparag {
+    padding: 1em;
+    text-align: left;
+    font-size: 0.8em
+}
+
+@media (max-width: 1100px) {
+    .Home-logo {
+        height: 4em;
+        float: left;
+    }
+    
+    .navmain {
+        padding: 5% 20% 5% 20%;
+        
+    }
+
+    .search {
+        padding: 2% 0 2% 0
+    }
+
+    .landingsec {
+        height: 50em;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 1);
+        background-image: url('./media/landimg.jpeg');
+        background-blend-mode: luminosity;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .landimg {
+        text-align: center;
+        height: 35em;
+        width: 100%;
+        object-fit: cover;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    .headertext {
+        position: absolute;
+        top: 8%;
+        left: 50%;
+        font-size: 130%;
+        color: #3D3D3D;
+        font-weight: bold;
+        transform: translateX(-50%);
+        border-bottom: 11px solid #F1D108;
+    }
+
+    .expsec {
+        background-color: rgba(255, 255, 255, 1);
+        background-image: url('./media/exp.jpg');
+        background-blend-mode: luminosity;
+        background-repeat: repeat-y;
+        background-position: center;
+        background-size: cover;
+        padding: 0% 0% 0% 0%;
+        height: 40em;
+        width: 100%;
+        /* text-align: center; */
+    }
+
+    .expheader {
+        /* align-content: center; */
+        /* justify-content: right; */
+        /* display: flexbox; */
+        width: 100%;
+        padding-top: 4%;
+        padding-bottom: 3%;
+    }
+
+    .exptext {
+        
+        padding-left: 12%;
+        font-size: 1.2em;
+    }
+
+    .txt1 {
+        color: #474646;
+    }
+
+    .txt2 {
+        color: rgb(109, 103, 103)
+    }
+
+    .expflex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .vids {
+        text-align: center;
+        
+    }
+
+    iframe {
+        width: 80%;
+        height: 20em
+    }
+
+    .expcard {
+        /* width: 50%; */
+        margin: 2% 10% 0 10%;
+        padding: 2% 2% 2% 2%;
+        justify-content: left;
+        height: 7em;
+        text-align: center;
+        background-color: white
+    }
+
+    .strip {
+        background-color: yellow;
+        margin: 2% 10% 0 10%;    
+        height: 1.2em;
+        text-align: center;
+    }
+
+    #expparag {
+        text-align: left;
+        font-size: 0.8em
+    }
+
+
+    
+}
+
+
+
+
+
+.landingsecmid button {
+    position: absolute;
+    width: 7em;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.landingsecmid #btn1 {
+    bottom: 25%;
+    
+}
+
+.landingsecmid #btn2 {
+    bottom: 15%;
+    /* display:block; */
+    /* margin: 50%; */
+    /* padding: 2.5em; */
+
+}
+
+
+
+ 
