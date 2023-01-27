@@ -64,11 +64,11 @@
     background-color: rgba(255, 255, 255, 1);
     background-image: url('./media/exp.jpg');
     background-blend-mode: luminosity;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     padding: 0% 15% 0% 15%;
-    height: 50em;
+    height: 45em;
     width: 100%;
 }
 
@@ -85,6 +85,7 @@
     
     padding-left: 0%;
     font-size: 1.8em;
+    font-weight: bold;
 }
 
 .txt1 {
@@ -101,20 +102,30 @@
     justify-content: space-between;
 }
 
-.vids {
-    /* text-align: right; */
-    
+.vids {   
+    border-radius: 2em; 
+	overflow:hidden;
+    width: 100em;
+    height: 25em
 }
 
 iframe {
-    width: 32em;
-    height: 25em
+    width: 100%;
+    height: 100%
 }
 
 @media (max-width: 2000px) and (min-width: 1300px) {
     iframe {
-        width: 40em;
+        width: 100%;
+        height: 100%
+    }
+
+    .vids {
+        border-radius: 2em; 
+        overflow:hidden;
+        width: 95em;
         height: 25em
+    
     }
 }
 
@@ -141,6 +152,28 @@ iframe {
     text-align: left;
     font-size: 0.8em
 }
+
+.landingsecmid button {
+    position: absolute;
+    width: 7em;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.landingsecmid #btn1 {
+    bottom: 25%;
+    
+}
+
+.landingsecmid #btn2 {
+    bottom: 15%;
+    /* display:block; */
+    /* margin: 50%; */
+    /* padding: 2.5em; */
+
+}
+
 
 @media (max-width: 1100px) {
     .Home-logo {
@@ -174,14 +207,15 @@ iframe {
         width: 100%;
         object-fit: cover;
         padding-top: 3%;
-        padding-bottom: 3%;
+        padding-bottom: 4%;
     }
 
     .headertext {
         position: absolute;
         top: 8%;
         left: 50%;
-        font-size: 130%;
+        font-size: 200%;
+        font-weight: bold;
         color: #3D3D3D;
         font-weight: bold;
         transform: translateX(-50%);
@@ -191,12 +225,12 @@ iframe {
     .expsec {
         background-color: rgba(255, 255, 255, 1);
         background-image: url('./media/exp.jpg');
+        background-repeat: repeat;
         background-blend-mode: luminosity;
-        background-repeat: repeat-y;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         padding: 0% 0% 0% 0%;
-        height: 40em;
+        height: 45em;
         width: 100%;
         /* text-align: center; */
     }
@@ -213,7 +247,8 @@ iframe {
     .exptext {
         
         padding-left: 12%;
-        font-size: 1.2em;
+        font-size: 1.5em;
+        font-weight: bold;
     }
 
     .txt1 {
@@ -230,14 +265,18 @@ iframe {
         justify-content: space-around;
     }
 
-    .vids {
-        text-align: center;
-        
+    iframe {
+        width: 100%;
+        height: 100%
     }
 
-    iframe {
+    .vids {
+        margin: 2% 10% 0 10%;
+        border-radius: 1.5em; 
+        overflow:hidden;
         width: 80%;
-        height: 20em
+        height: 23em
+    
     }
 
     .expcard {
@@ -265,32 +304,6 @@ iframe {
 
     
 }
-
-
-
-
-
-.landingsecmid button {
-    position: absolute;
-    width: 7em;
-    left: 50%;
-    transform: translateX(-50%);
-
-}
-
-.landingsecmid #btn1 {
-    bottom: 25%;
-    
-}
-
-.landingsecmid #btn2 {
-    bottom: 15%;
-    /* display:block; */
-    /* margin: 50%; */
-    /* padding: 2.5em; */
-
-}
-
 
 
  

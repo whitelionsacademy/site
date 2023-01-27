@@ -1,6 +1,7 @@
 import React from "react";
 import Sec from "./NavSec.js"
 import vid from '../media/exp.mp4'
+import expimg from '../media/exp.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -8,6 +9,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 function ExperienceSec(){
     return (
         <div class="expsec">
+            
             <div class="expheader">
                 <h1 class="exptext txt1">Experience</h1>
 
@@ -15,6 +17,7 @@ function ExperienceSec(){
             </div>
            
             <div class="expflex">
+                
                 <div class="embed-responsive embed-responsive-21by9 vids">
                     <iframe class="embed-responsive-item" src={vid}></iframe>
                 </div>
