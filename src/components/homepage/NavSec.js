@@ -18,7 +18,7 @@ function NavSec(){
                                 <a class="nav-link" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="/about">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Program</a>

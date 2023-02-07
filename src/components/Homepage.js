@@ -1,6 +1,7 @@
 import React from "react";
 import LandingSec from "./homepage/LandingSec.js"
 import ExperienceSec from "./homepage/ExperienceSec.js"
+import ProgramSec from "./homepage/ProgramSec.js"
 import "./homepage.css"
 
 function Homepage(){
@@ -8,6 +9,7 @@ function Homepage(){
         <div>
             <LandingSec/>
             <ExperienceSec/>
+            <ProgramSec/>
         </div>    
     );
 }

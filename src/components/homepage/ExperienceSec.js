@@ -1,7 +1,5 @@
 import React from "react";
-import Sec from "./NavSec.js"
 import vid from '../media/exp.mp4'
-import expimg from '../media/exp.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
