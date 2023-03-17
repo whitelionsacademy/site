@@ -9,15 +9,14 @@ function ExperienceSec(){
         <div class="team">
             <h1>Our Team</h1>
             <div class="teamco">
-            <h1 className="name">Oyewole Adebiyi John</h1>
-            <h4>Head Coach</h4>
-                <p id="teamparag">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Rerum ut voluptates quisquam quidem similique modi impedit. 
-                Voluptatem, recusandae, animi corrupti consectetur, 
-                sed maiores consequatur ducimus optio fugit alias </p> 
+                <h1 className="name">Oyewole Adebiyi John</h1>
+                <h4>Head Coach</h4>
+                <p class="teamparag">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Rerum ut voluptates quisquam quidem similique modi impedit.</p> 
             </div>
-            <img src={coachimg} className="coachimg" />
-
+            <div class="coachimge">
+            <img src={coachimg} className="coachimg"/>
+            </div>
             
         </div>    
     );

@@ -6,13 +6,11 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function LandingSec(){
     return (
-        <div class="landingsec">
+        <div class="landingSec">
             <NavSec/>
             <div className="landingsecmid">
-                <img src={landimg} className="landimg"></img>
+                <img src={landimg} className="landImg"></img>
             </div>
-
-            
         </div>
     )
 }

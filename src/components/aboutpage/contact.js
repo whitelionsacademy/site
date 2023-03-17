@@ -12,7 +12,7 @@ function ExperienceSec(){
         <div class="contact">
             <div class="contacts">
                 <div class="contactflex">
-                    <h1>CONTACT US</h1>
+                    <h1>Contact Us</h1>
                     <h3>Lagos Nigeria</h3>
                     <h3>10 Lambo Iasunwo firstgate opp. Laspotech Ikorodu North Lagos NG, 100001, Ikorodu.</h3>
                 </div>
@@ -24,7 +24,7 @@ function ExperienceSec(){
                     <a class="nav-link" href="#">Contact</a>
                 </div>
                 <div class="icons">
-                    <h1>Follow US</h1>
+                    <h1>Follow Us</h1>
                     <a href="#"><img src={faceimg} className="faceimg" /></a>
                     <a href="#"><img src={twittimg} className="twittimg" /></a>
                     <a href="#"><img src={instaimg} className="instaimg" /></a>

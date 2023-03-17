@@ -10,26 +10,32 @@ function ExperienceSec(){
         <div class="missvis">
             <div class="missflex">
                 <div class="mission">
-                    <h1>Our Mission</h1>
-                    <p class="misparag">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Rerum ut voluptates quisquam quidem similique modi impedit. Voluptatem, recusandae, animi corrupti consectetur, 
-                    sed maiores consequatur ducimus optio fugit alias itaque? Laboriosam? 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, id adipisci harum suscipit nulla provident tempora error
-                    expedita corrupti fugit explicabo nostrum ducimus, non voluptate fugiat in accusamus quia. Placeat?</p> 
+                    <div class="missionsection">
+                        <div class="missionwrt">
+                            <h1>Our Mission</h1><br />
+                            <p class="misparag">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Rerum ut voluptates quisquam quidem similique modi impedit. Voluptatem, recusandae, animi corrupti consectetur, 
+                            sed maiores consequatur ducimus optio fugit alias itaque? Laboriosam?</p>
+                            <p class="missparag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, id adipisci harum suscipit nulla provident tempora error
+                            expedita corrupti fugit explicabo nostrum ducimus, non voluptate fugiat in accusamus quia. Placeat?</p> 
+                        </div>
+                        <div class="misimge">
+                        <img src={missimg} className="missimg" />
+                        </div>
+                    </div>
                 </div>
-                <img src={missimg} className="missimg" />
                 <div class="vision">
-                    <h1>Our Vision</h1>
                     <div class="visionsection">
-                        <div class="">
+                        <div class="visionwrt">
+                            <h1>Our Vision</h1><br />
                             <p class="visparag">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Rerum ut voluptates quisquam quidem similique modi impedit. Voluptatem, recusandae, animi corrupti consectetur, 
-                            sed maiores consequatur ducimus optio fugit alias itaque? Laboriosam? 
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia eos esse mollitia qui quidem, non quisquam 
+                            sed maiores consequatur ducimus optio fugit alias itaque? Laboriosam? </p>
+                            <p class="missparag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia eos esse mollitia qui quidem, non quisquam 
                             alias amet eaque dicta possimus vitae a doloremque error reiciendis sunt beatae omnis!</p>
                         </div>
-                        <div class="">
-                        <img src={visimg} className="visimg" />
+                        <div class="vimge">
+                            <img src={visimg} className="visimg" />
                         </div>
                     </div>
                 </div>
