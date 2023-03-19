@@ -15,9 +15,9 @@ function NavSec(){
                     <div class="collapse navbar-collapse taskbar" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="/">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="/about">About</a>
                             </li>
                             <li class="nav-item">

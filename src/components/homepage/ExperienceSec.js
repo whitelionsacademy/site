@@ -28,7 +28,7 @@ function ExperienceSec(){
                             
                         </p>
                     </div>
-                    <div class="strip"></div>
+                    {/* <div class="strip"></div> */}
                 </div>
             </div>
             
