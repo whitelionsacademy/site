@@ -1,5 +1,7 @@
 import React from "react";
 import logo from '../media/whiteLion.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function NavSec(){
 
@@ -12,7 +14,8 @@ function NavSec(){
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse taskbar" id="navbarSupportedContent">
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
                                 <a class="nav-link" href="/">Home</a>
@@ -47,7 +50,7 @@ function NavSec(){
                     <div class="input-group search">
                         <input type="text" class="form-control" placeholder="Search" aria-label="Search"></input>
                         <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button">Search</button>
+                            <button class="btn btn-outline-secondary" type="submit">Search</button>
                         </div>
                     </div>
                     

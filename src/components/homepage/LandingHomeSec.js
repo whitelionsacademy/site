@@ -10,7 +10,7 @@ function LandingHomeSec(){
             <div className="landingsecmid">
                 <h1 className="headertext" >WhiteLions Basketball Academy</h1>
                 <button id="btn1" class="btn btn-light btn-lg">Explore</button>
-                <button id="btn2" class="btn btn-light btn-lg"> Contact us</button>
+                <button id="btn2" class="btn btn-light btn-lg"> About us</button>
                 <img className="landhomeimg"></img>
             </div>
 

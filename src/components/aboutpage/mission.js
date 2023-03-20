@@ -1,6 +1,6 @@
 import React from "react";
 import missimg from '../media/image 3.png'
-import visimg from '../media/Rectangle 78.png'
+import visimg from '../media/visimg.jpeg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 

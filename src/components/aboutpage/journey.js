@@ -1,5 +1,5 @@
 import React from "react";
-import journimg from '../media/image 4.png'
+import journimg from '../media/journimg.jpeg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
