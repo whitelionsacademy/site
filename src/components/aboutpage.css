@@ -40,7 +40,7 @@
 .landImg {
     text-align: center;
     height: 30em;
-    width: 100%;
+    width: 95%;
     object-fit: cover;
    
 }
@@ -71,6 +71,7 @@
 .missflex{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     overflow: hidden;
     padding: 40px;
@@ -87,12 +88,16 @@
 .missionwrt{
     float: left;
     width: 50%;
-    padding-right: 30px;
+    padding-right: 15px;
 }
 
 .misimge{
     float: right;
     width: 50%;
+}
+.missimg{
+    height: 30em;
+    width: 100%;
 }
 
 .vision{
@@ -102,6 +107,7 @@
 }
 .visionsection{
     display: flex;
+    padding-top: 30px;
 }
 .visionwrt{
     float: left;
@@ -110,8 +116,13 @@
    
 }
 .vimge{
+   
     float: right;
     width: 50%;
+}
+.visimg{
+    height: 30em;
+    width: 100%;
 }
 .journ{
     display: flex;
@@ -119,11 +130,12 @@
     justify-content: center;
     height: 70em;
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('./media/Rectangle\ 10.png');
+    background-image: url('./media/journimg.jpeg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding: 7%;
 }
 .journflex{
     padding: 40px;
@@ -134,19 +146,32 @@
 }
 .jourimge{
     width: 100%;
+    
+}
+.journimg{
+    width: 65em;
+    height: 30em;
 }
 .journey2{
     padding-top: 20px;
 }
 .team{
     justify-content: center;
-    height: 20em;
+    align-items: center;
+    height:auto;
     background-color: rgba(255, 255, 255, 1);
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 5%;
+    padding: 7%;
+
+}
+.teamflex{
+    padding-left: 50px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 .teamco{
     margin-top: 5%;
@@ -204,7 +229,7 @@
     text-align: center;
 }
 
-@media  (max-width:800px) {
+ @media  (max-width:800px) { /*TABLET VIEW */
     .missflex{
         padding: 20px;
         height: 100%;
@@ -241,11 +266,12 @@
     }
 
     .journimg{
+        width: 35em;
         height: 250px;
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:600px) { /*PHONE VIEW */
     .missflex{
         padding: 0px 0px 0px;
         height: 100%;        
@@ -308,6 +334,9 @@
     }
     .journey2{
         padding: 0px 20px 5px;
+    }
+    .teamflex{
+        padding-left: 10px;
     }
     .teamco{
         height: 15em;
