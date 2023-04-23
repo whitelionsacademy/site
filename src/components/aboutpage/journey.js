@@ -9,9 +9,9 @@ function ExperienceSec(){
         <div class="journ">
             <div class="journflex">
                 <div class="journey">
-                    <h1>Our Journey</h1>
+                    <h2 class="text tex">Our Journey</h2>
                     <br />
-                    <p class="journeyparag">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <p class="journeyparag Parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Rerum ut voluptates quisquam quidem similique modi impedit. Voluptatem, recusandae, animi corrupti consectetur, 
                     sed maiores consequatur ducimus optio fugit alias itaque? Laboriosam? 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, id adipisci harum suscipit nulla provident tempora error
@@ -19,10 +19,10 @@ function ExperienceSec(){
                     
                 </div>
                 <div class="jourimge">
-                <img src={journimg} className="journimg" />
+                <img src={journimg} className="rounded journimg" />
                 </div>
                 <div class="journey2">
-                    <p class="journeyparag2">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <p class="journeyparag2 Parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Rerum ut voluptates quisquam quidem similique modi impedit. Voluptatem, recusandae, animi corrupti consectetur, 
                     sed maiores consequatur ducimus optio fugit alias itaque? Laboriosam? 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia eos esse mollitia qui quidem, non quisquam 

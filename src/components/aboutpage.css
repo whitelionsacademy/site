@@ -52,8 +52,25 @@
     text-align: center;
     height: 100%;
     padding-bottom: 10%;
+}
+.text {
+    padding-left: 0%;
+    font-size: 1.8em;
+    font-weight: bold;
+}
 
+.tex{
+    color: #474646;
+}
 
+.tex1{
+    color: rgb(109, 103, 103)
+}
+
+.Parag{
+    padding: 1em;
+    text-align: justify;
+    font-size: 0.8em
 }
 .missvis{
     display: flex;
@@ -96,7 +113,9 @@
 }
 .missimg{
     height: 30em;
-    width: 100%;
+    width: 35em;
+    object-fit:cover;
+    object-position:50% 50%;
 }
 
 .vision{
@@ -121,7 +140,9 @@
 }
 .visimg{
     height: 30em;
-    width: 100%;
+    width: 35em;
+    object-fit:cover;
+    object-position:50% 50%;
 }
 .journ{
     display: flex;
@@ -147,15 +168,18 @@
     
 }
 .journimg{
-    width: 65em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
     height: 30em;
+    object-fit:cover;
+    object-position:50% 50%;
 }
 .journey2{
     padding-top: 20px;
 }
 .team{
-    justify-content: center;
-    align-items: center;
     height:auto;
     background-color: rgba(255, 255, 255, 1);
     background-blend-mode: luminosity;
@@ -166,7 +190,6 @@
 
 }
 .teamflex{
-    padding-left: 50px;
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -181,8 +204,10 @@
 }
 .coachimg{
     float: right;
-    width: 40%;
-    height: 255px;
+    width: 25em;
+    height: 20em;
+    object-fit:cover;
+    object-position:50% 50%;
 }
 .contact{
     height: auto;
@@ -197,16 +222,22 @@
     align-content: center;
     justify-content: center;
     padding: 5px;
+    text-align: justify;
 }
-.contacts div{
+.contactUs{
+    position: absolute;
+}
+.divs{
     align-items: center;
     margin: 20px;
     width: 100%;
 }
+.contactflex{
+    text-align: center;
+}
 
 .icons{
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 .icons a{
     font-weight:500;
@@ -271,6 +302,9 @@
     .journimg{
         width: 35em;
         height: 250px;
+    }
+    .teamflex{
+       justify-content: center;
     }
     .cont{
         display: none;
