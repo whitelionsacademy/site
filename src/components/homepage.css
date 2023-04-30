@@ -278,6 +278,147 @@ iframe {
 }
 
 
+/* Sponsor */
+
+.spons {
+    padding: 5% 17% 5% 17%;
+}
+
+.sponone {
+    padding: 0 6% 6% 6%;
+    display: flex;
+    flex-direction: row
+}
+
+.spontag {
+    text-align: justify;
+}
+
+.sponimg {
+    height: 21em;
+    width: 40%;
+    padding: 0 6% 0% 0%;
+}
+
+.spondiv {
+    padding: 0 0% 0% 6%;
+    position: relative;
+    
+}
+
+#sponbutton{
+    position: absolute;
+    transform: translateY(-100%);
+    top: 100%;
+    right: 0;
+}
+
+.stag {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 2%;
+    font-size: 80%;
+}
+
+.spontext {
+    
+    padding-left: 6%;
+    padding-bottom: 2%;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+/* ----testimonials */
+
+.testmain {
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url('./media/testm.jpeg');
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 5% 17% 5% 17%
+}
+
+.testsub {
+    background-color: #D9D9D9;
+    padding: 5% 7% 5% 7%;
+    /* opacity: .7; */
+}
+
+.testone {
+    padding: 3% 6% 6% 6%;
+    display: flex;
+    flex-direction: row
+}
+
+.testimg {
+    height: 140px;
+    width: 140px;
+    padding: 10%;
+    
+}
+
+#testpg {
+    text-align: justify;
+}
+
+.testsec {
+    text-align: center;
+}
+
+/* ---- Contact ---- */
+
+.contact{
+    height: auto;
+    background-color: #D9D9D9;
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contacts{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 5px;
+}
+.contacts div{
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
+
+.icons{
+    align-items: center;
+    justify-content: center;
+}
+.icons a{
+    font-weight:500;
+    padding: 12px;
+    display: block;
+}
+.icons img{
+    width: 20%;
+    height: 25%;
+    
+}
+.copyright{
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    height: 25%;
+    align-content: center;
+    justify-content: center;
+    background-color: #3D3D3D;
+}
+.copyright h2{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
 @media (max-width: 1100px) {
     .Home-logo {
         height: 4em;
@@ -478,6 +619,44 @@ iframe {
         height: 100%;
         width: 100%;
         padding: 5% 6% 5% 6%
+    }
+
+
+    /* Sponsor */
+
+    .spons {
+        padding: 5% 5% 5% 5%;
+    }
+
+    .sponone {
+        padding: 0 6% 6% 6%;
+        display: flex;
+        flex-direction: column
+    }
+
+    .spontag {
+        text-align: justify;
+        padding-bottom: 3%;
+    }
+
+    .sponimg {
+        height: 50%;
+        width: 50%;
+        text-align: center;
+        padding: 0 6% 3% 0%;
+    }
+
+    .spondiv {
+        padding: 0 0% 0% 0%;
+        position: relative;
+        
+    }
+
+    #sponbutton{
+        position: absolute;
+        transform: translateY(-20%);
+        top: 100%;
+        right: 0;
     }
     
 
