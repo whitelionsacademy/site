@@ -11,9 +11,7 @@ function ExperienceSec(){
     return (
         <div class="contact">
             <div class="contacts">
-                <div class="contactUs">
-                    <h3 class="text tex">Contact US</h3>
-                </div>
+                
                 <div class="contactf divs">
                     <h3 class="text tex">Content</h3><br class="brs" />
                     <p class="Parag">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia nulla dolores soluta tenetur omnis.</p>

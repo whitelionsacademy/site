@@ -12,7 +12,7 @@ function ContactSec(){
         <div class="contact">
             <div class="contacts">
                 <div class="contactf">
-                    <h3>Content</h3><br class="brs" />
+                    <h3>Contact</h3><br class="brs" />
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia nulla dolores soluta tenetur omnis.</p>
                     <p class="cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, maiores! Vero reprehenderit tempora aperiam accusantium nihil earum qui, quasi aspernatur, dignissimos culpa quidem corporis, odio id mollitia aliquid pariatur voluptatibus!</p>
                 </div>
@@ -37,7 +37,7 @@ function ContactSec(){
                 </div>
             </div>
             <div class="copyright">
-                <h3>©2023 whiteLions Basketball Academy</h3>
+                <footer>©2023 whiteLions Basketball Academy</footer>
             </div>
         </div>    
     );
