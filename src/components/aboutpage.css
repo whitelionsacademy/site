@@ -102,26 +102,25 @@
     background-color: white;
     
 }
-.mission{
+.missionsection{
     width: 100%;
-    height: 50%;
+    display: flex;
+    flex-direction: row;
 }
 
 .missionwrt{
-    float: left;
     width: 50%;
-    padding-right: 15px;
+    padding: 3%;
 }
 
 .misimge{
-    float: right;
     width: 50%;
+    padding: 3%;
 }
 .missimg{
-    height: 30em;
-    width: 35em;
+    height: 100%;
+    width: 100%;
     object-fit:cover;
-    object-position:50% 50%;
 }
 
 .vision{
@@ -275,18 +274,28 @@
         padding: 20px;
         height: 100%;
     }
-    .mission{
-        height: 50%;
-    }
-    
-    .missionwrt{
-        padding-right: 10px;
-    }
-    
-    .missimg{
+
+    .missionsection{
         width: 100%;
-        height: 25em;
+        display: flex;
+        flex-direction: column;
     }
+
+    .missionwrt{
+        width: 100%;
+        padding: 3%;
+    }
+
+    .misimge{
+        width: 100%;
+        padding: 3%;
+    }
+    .missimg{
+        height: 100%;
+        width: 100%;
+        object-fit:cover;
+    }
+
     .vision{
         margin-top: 20px;
     }
@@ -328,25 +337,36 @@
         padding: 0px 0px 0px;
         height: 100%;        
     }
+
+
     .mission{
         width: 150%;
+    }
+    .missparag{
+        display: none;
+    }
+    .missimg{
+        width: 100%;
+        height: 20em;
     }
     .missionsection{
         width: 100%;
         display: flex;
         flex-direction: column;
     }
+
     .missionwrt{
-        padding: 10px 20px 10px;
-       width: 100%;
+        width: 100%;
+        padding: 3%;
     }
-    .missparag{
-        display: none;
+
+    .misimge{
+        width: 100%;
+        padding: 0%;
     }
-    .missimg{
-        width: 200%;
-        height: 20em;
-    }
+
+
+
     .vision{
         margin-top: 10px;
     }

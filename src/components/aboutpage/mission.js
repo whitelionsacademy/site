@@ -11,7 +11,9 @@ function ExperienceSec(){
     return (
         <div class="missvis">
             <div class="missflex">
+                
                 <div class="mission">
+
                     <div class="missionsection">
                         <div class="missionwrt">
                             <h2 class="text tex">Our Mission</h2><br />
@@ -21,11 +23,15 @@ function ExperienceSec(){
                             <p class="missparag Parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, id adipisci harum suscipit nulla provident tempora error
                             expedita corrupti fugit explicabo nostrum ducimus, non voluptate fugiat in accusamus quia. Placeat?</p> 
                         </div>
+
                         <div class="misimge">
-                        <img src={missimg} className="rounded missimg" />
+                            <img src={missimg} className="rounded missimg" />
                         </div>
                     </div>
+
                 </div>
+
+
                 <div class="vision">
                     <div class="visionsection">
                         <div class="visionwrt">
