@@ -5,7 +5,7 @@ import {BrowserRouter, HashRouter, Routes, Route} from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
 
       <Routes>
           <Route path="/" element={<Homepage/>}/>
