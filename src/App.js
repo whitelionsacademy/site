@@ -5,7 +5,7 @@ import {BrowserRouter, HashRouter,Routes, Route} from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename="/wlion">
 
       <Routes>
           <Route path="/" element={<Homepage/>}/>
