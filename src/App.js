@@ -1,11 +1,11 @@
 import './App.css';
 import Homepage from './components/Homepage.js';
 import Aboutpage from './components/Aboutpage.js';
-import {BrowserRouter, HashRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter, HashRouter,Routes, Route} from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
 
       <Routes>
           <Route path="/" element={<Homepage/>}/>
