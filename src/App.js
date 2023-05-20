@@ -5,14 +5,14 @@ import {BrowserRouter, HashRouter,Routes, Route} from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
 
       <Routes>
           <Route path="/" element={<Homepage/>}/>
           <Route path="/about" element={<Aboutpage/>}/> 
       </Routes>
 
-    </HashRouter>
+    </BrowserRouter>
     
     
   );
