@@ -1,5 +1,7 @@
 import React from "react";
 import logo from '../media/logo.png';
+import { Link } from "react-router-dom";
+
 
 function NavSec(){
 
