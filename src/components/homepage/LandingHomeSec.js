@@ -11,7 +11,7 @@ function LandingHomeSec(){
             <NavSec/>
             <div className="landingsecmid">
                 <h1 className="headertext" >WhiteLions Basketball Academy</h1>
-                 <Link class="nav-link" to="/"><button id="btn1" class="btn btn-light btn-lg">About us</button></Link>
+                 <Link to="/about"><button id="btn1" class="btn btn-light btn-lg">About us</button></Link>
                 {/* <button id="btn2" class="btn btn-light btn-lg"> Explore</button> */}
                 <img className="landhomeimg"></img>
             </div>
