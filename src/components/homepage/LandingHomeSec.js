@@ -15,7 +15,6 @@ function LandingHomeSec(){
                 {/* <button id="btn2" class="btn btn-light btn-lg"> Explore</button> */}
                 <img className="landhomeimg"></img>
             </div>
-
             
         </div>
     )
