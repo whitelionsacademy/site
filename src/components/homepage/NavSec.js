@@ -2,6 +2,7 @@ import React from "react";
 import logo from '../media/whiteLion.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import { Link } from "react-router-dom";
 
 function NavSec(){
 
@@ -18,10 +19,10 @@ function NavSec(){
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item active activebd">
-                                <a class="nav-link" href="/">Home</a>
+                                <Link class="nav-link" to="/">Home</Link>
                             </li>
                             <li class="nav-item active activebd">
-                                <a class="nav-link" href="/about">About</a>
+                                <Link class="nav-link" to="/about">About</Link>
                             </li>
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Program</a>
