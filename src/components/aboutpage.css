@@ -146,7 +146,7 @@
 }
 
 .visimg{
-    height: 100%;
+    height: 500px;
     width: 100%;
     object-fit:cover;
 }
@@ -164,7 +164,7 @@
     padding: 7%;
 }
 .journflex{
-    padding: 30px;
+    padding: 60px;
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -183,7 +183,7 @@
 
 .journimg{
     width: 100%;
-    height: 500px;
+    height: 600px;
     object-fit:cover;
 }
 
