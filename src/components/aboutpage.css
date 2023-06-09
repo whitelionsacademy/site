@@ -128,32 +128,33 @@
     height: 50%;
     margin-top: 40px;
 }
+
 .visionsection{
+    width: 100%;
     display: flex;
-    padding-top: 30px;
+    flex-direction: row;
 }
+
 .visionwrt{
-    float: left;
     width: 50%;
-    padding-right: 30px;
-   
+    padding: 3%;
 }
+
 .vimge{
-   
-    float: right;
     width: 50%;
+    padding: 3%;
 }
+
 .visimg{
-    height: 30em;
-    width: 35em;
+    height: 500px;
+    width: 100%;
     object-fit:cover;
-    object-position:50% 50%;
 }
 .journ{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70em;
+    height: auto;
     background-image: url('./media/journimg.jpeg');
     background-color: rgba(255, 255, 255, 1);
     background-blend-mode: luminosity;
@@ -163,29 +164,33 @@
     padding: 7%;
 }
 .journflex{
-    padding: 40px;
+    padding: 60px;
     overflow: hidden;
     width: 100%;
     height: 100%;
     background-color: white;
 }
+
+.journsection{
+    width: 100%;
+}
+
 .jourimge{
     width: 100%;
+    padding: 1%;
     
 }
+
 .journimg{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60em;
-    height: 30em;
+    width: 100%;
+    height: 600px;
     object-fit:cover;
-    object-position:50% 50%;
 }
-.journey2{
-    padding-top: 20px;
-}
+
 .team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height:auto;
     background-color: rgba(255, 255, 255, 1);
     background-blend-mode: luminosity;
@@ -195,26 +200,41 @@
     padding: 7%;
 
 }
+
 .teamflex{
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     width: 100%;
     height: 100%;
 }
-.teamco{
-    margin-top: 5%;
-    float:left;
-    width: 50%;
+
+.teamsection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
+
+.teamwrt{
+    width: 50%;
+    padding: 3%;
+}
+
 .name{
     font-weight: bold;
 }
-.coachimg{
-    float: right;
-    width: 25em;
-    height: 20em;
-    object-fit:cover;
-    object-position:50% 50%;
+
+.teaimge{
+    width: 50%;
+    padding: 3%;
 }
+
+.teaimg{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
 .contact{
     height: auto;
     background-color: #D9D9D9;
@@ -223,6 +243,7 @@
     background-position: center;
     background-size: cover;
 }
+
 .contacts{
     display: flex;
     align-content: center;
@@ -230,14 +251,17 @@
     padding: 2% 5% 0 5%;
     text-align: justify;
 }
+
 .contactUs{
     position: absolute;
 }
+
 .divs{
     align-items: center;
     margin: 20px;
     width: 100%;
 }
+
 .contactflex{
     text-align: center;
 }
@@ -290,44 +314,91 @@
         width: 100%;
         padding: 3%;
     }
+
     .missimg{
         height: 100%;
         width: 100%;
         object-fit:cover;
     }
 
-    .vision{
-        margin-top: 20px;
-    }
-    .visionwrt{
-        padding-right: 10px;  
-    }
-    .visimg{
+    .visionsection{
         width: 100%;
-        height: 25em;
+        display: flex;
+        flex-direction: column;
     }
 
-    .journ{
-        height: 60em;
+    .visionwrt{
+        width: 100%;
+        padding: 3%;  
     }
 
-    .journflex{
+    .vimge{
+        width: 100%;
+        padding: 3%;
+    }
+
+    .visimg{
         height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .journsection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jwrt{
+        width: 100%;
+        padding: 3%;
+    }
+
+    .jourimge{
+        width: 100%;
+        padding: 3%;
     }
 
     .journimg{
-        width: 35em;
-        height: 250px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
+
     .teamflex{
+        width: 100%;
        justify-content: center;
     }
+
+    .teamsection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .teamwrt{
+        width: 100%;
+        padding: 3%;
+    }
+
+    .teaimge{
+        text-align: center;
+        width: 100%;
+        padding: 3%;
+    }
+
+    .teaimg{
+        height: 50%;
+        width: 80%;
+        object-fit: cover;
+    }
+
     .cont{
         display: none;
     }
+
     .icons img{
-        width: 25;
-        height: 70%;
+        height: 55%;
         
     }
 }
@@ -338,17 +409,19 @@
         height: 100%;        
     }
 
-
     .mission{
         width: 150%;
     }
+
     .missparag{
         display: none;
     }
+
     .missimg{
         width: 100%;
         height: 20em;
     }
+
     .missionsection{
         width: 100%;
         display: flex;
@@ -362,78 +435,107 @@
 
     .misimge{
         width: 100%;
-        padding: 0%;
+        height: 0%;
     }
-
-
 
     .vision{
-        margin-top: 10px;
-    }
-    .visionsection{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    .visionwrt{
-        padding: 10px 20px 10px;
         width: 100%;
     }
+
+    .visionsection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .visionwrt{
+        width: 100%;
+        padding: 3%;
+    }
+
+    .vimge{
+        width: 100%;
+        height: 0%;
+    }
+
     .visimg{
-        padding-bottom: 20px;
-        width: 200%;
+        width: 100%;
         height: 20em;
     }
-    .journ{
-        height: 50em;
-    }
+
     .journflex{
         height: 100%;
         padding: 0;
     }
+
     .journey h1{
         padding: 30px 30px 0px;
     }
+
     .journeyparag{
         display: none;
     }
+
     .jourimge{
         height: 20em;
     }
+
     .journimg{
         width: 100%;
         height: 300px;
     }
-    .journey2{
-        padding: 0px 20px 5px;
-    }
-    .teamflex{
-        padding-left: 10px;
-    }
-    .teamco{
-        height: 15em;
-        padding-bottom: 0;
-    }
-    .coachimge{
+
+    .journey{
         width: 100%;
-        height: 50%;
+        padding: 3%;
     }
-    .coach img{
-        width: 50%;
+
+    .team{
+        width: 100%;
     }
+
+    .teamflex{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .teamsection{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .teamwrt{
+        width: 100%;
+        padding: 3%;
+    }
+
+    .teaimge{
+        width: 100%;
+        height: 0%;
+    }
+
+    .teaimg{
+        width: 100%;
+    }
+    
     .contact{
         display: flex;
         flex-direction: column;
         height: auto;
     }
+
     .contacts{
         display: grid;
         
     }
+
     .contactf{
         grid-column: 1 / span 3;
         grid-row: 1;
     }
+
     .brs{
         display: none;
     }
@@ -446,10 +548,12 @@
         grid-column: 1 / span 3;
         grid-row: 3;
     }
+
     .icons a{
         padding: 5px;
         display: inline;
     }
+
     .contactflex{
         text-align: left;
     }
