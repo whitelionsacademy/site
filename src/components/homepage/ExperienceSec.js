@@ -1,5 +1,4 @@
 import React from "react";
-import vid from '../media/exp.mp4'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -17,7 +16,7 @@ function ExperienceSec(){
             <div class="expflex">
                 
                 <div class="embed-responsive embed-responsive-21by9 vids">
-                    <iframe class="embed-responsive-item" src={vid}></iframe>
+                    <iframe class="embed-responsive-item" src={"https://end-sars.s3-us-west-2.amazonaws.com/exp.mp4"}></iframe>
                 </div>
 
                 <div class="expdiv">
