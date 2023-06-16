@@ -14,8 +14,11 @@ function ExperienceSec(){
                 
                 <div class="contactf divs">
                     <h3 class="text tex">Content</h3><br class="brs" />
-                    <p class="Parag">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia nulla dolores soluta tenetur omnis.</p>
-                    <p class="cont Parag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, maiores! Vero reprehenderit tempora aperiam accusantium nihil earum qui, quasi aspernatur, dignissimos culpa quidem corporis, odio id mollitia aliquid pariatur voluptatibus!</p>
+                    <p class="Parag"> Our Content section serves as your gateway to all things basketball. 
+                    With a diverse array of articles, analysis, tutorials, and features,
+                     we aim to cater to the diverse interests and passions of the basketball community. </p>
+                    <p class="cont Parag">At WhiteLion Basketball Academy, our Content section is the ultimate destination for basketball enthusiasts seeking a
+                     wealth of engaging and informative material.</p>
                 </div>
                 <div class="contactflex divs">
                     <h3 class="text tex">About</h3><br class="brs" />
@@ -27,7 +30,7 @@ function ExperienceSec(){
                 <div class="quick divs">
                     <h3 class="text tex">Address</h3><br class="brs" />
                     <p class="Parag">Lagos Nigeria <br />
-                    10 Lambo Iasunwo firstgate opp. Laspotech Ikorodu North Lagos NG, 100001, Ikorodu.</p>
+                    10 Lambo Iasunwo firstgate opp. Laspotech IkoroduNorth, Lagos NG, 100001, Ikorodu.</p>
                 </div>
                 <div class="icons divs">
                     <h3 class="text tex">Follow Us</h3>

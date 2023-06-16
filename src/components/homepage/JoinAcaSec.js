@@ -10,7 +10,11 @@ function JoinAcadSec(){
                         Join Academy
                     </h2>
                     <p id="jointxt">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas posuere nulla eu commodo convallis. Proin sem ipsum, accumsan eget enim a, pellentesque accumsan sem. Nam blandit dignissim ex quis posuere.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas posuere nulla eu commodo convallis. Proin sem ipsum, a ccumsan eget enim a, pellentesque accumsan sem. Nam blandit dignissim ex quis posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas posuere nulla eu commodo convallis.
+                    Join our basketball academy and unlock your full potential on and off the court. With expert coaching, comprehensive 
+                    skill training, competitive game experience, character development, and pathways to higher levels of basketball, we
+                    provide the ideal environment for aspiring players to thrive. Join our community of passionate basketball enthusiasts 
+                    and embark on a transformative journey that will shape your 
+                    future in the game. Together, let's unleash your potential and create a legacy in the world of basketball.
                     </p>
 
                     <button class="btn btn-outline-secondary" id="joinbutton" type="submit">Register</button>

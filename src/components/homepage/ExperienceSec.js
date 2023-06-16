@@ -23,9 +23,9 @@ function ExperienceSec(){
                 <div class="expdiv">
                     <div class="expcard card">
                         <p id="expparag">
-                            Lorem ipsum. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed facilisis 
-                            pretium purus eget egestas. Donec at arcu ornare. Sed facilisis pretium purus eget egestas. Donec at arcu ornar 
-                            
+                        In this section, we bring you inspiring, emotional, and thought-provoking stories that showcase the
+                         transformative power of the game. From heartwarming anecdotes to tales of triumph over adversity, these stories remind us 
+                        of the unique human connections and profound impact basketball has on individuals and communities.
                         </p>
                     </div>
                     {/* <div class="strip"></div> */}

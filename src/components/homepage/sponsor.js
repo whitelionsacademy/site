@@ -10,8 +10,11 @@ function Sponsor(){
             <img src={img_spons} class="rounded float-right sponimg"></img>
             <div class="spondiv">
                 <p class="stag">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                </p>
+                By becoming a sponsor or making a donation, you have the power to shape the future of basketball and make a meaningful 
+                impact in the lives of players, teams, and communities. Whether you choose to sponsor a specific program, make a general 
+                donation, or support scholarships, your generosity enables us to provide resources, opportunities, and support that elevate 
+                the game we love. Together, let's support the growth, development, and accessibility 
+                of basketball, ensuring that its positive influence continues to inspire generations to come.</p>
 
                 <button class="btn btn-outline-secondary" id="sponbutton" type="submit">Support</button>
             </div>

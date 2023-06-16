@@ -13,8 +13,11 @@ function ContactSec(){
             <div class="contacts">
                 <div class="contactf">
                     <h3>Contact</h3><br class="brs" />
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia nulla dolores soluta tenetur omnis.</p>
-                    <p class="cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, maiores! Vero reprehenderit tempora aperiam accusantium nihil earum qui, quasi aspernatur, dignissimos culpa quidem corporis, odio id mollitia aliquid pariatur voluptatibus!</p>
+                    <p> Our Content section serves as your gateway to all things basketball. 
+                    With a diverse array of articles, analysis, tutorials, and features,
+                     we aim to cater to the diverse interests and passions of the basketball community. </p>
+                    <p class="cont">At WhiteLion Basketball Academy, our Content section is the ultimate destination for basketball enthusiasts seeking a
+                     wealth of engaging and informative material.</p>
                 </div>
                 <div class="contactflex">
                     <h3>About</h3><br class="brs" />
