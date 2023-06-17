@@ -22,9 +22,7 @@ function ExperienceSec(){
                 <div class="expdiv">
                     <div class="expcard card">
                         <p id="expparag">
-                        In this section, we bring you inspiring, emotional, and thought-provoking stories that showcase the
-                         transformative power of the game. From heartwarming anecdotes to tales of triumph over adversity, these stories remind us 
-                        of the unique human connections and profound impact basketball has on individuals and communities.
+                        As a team, our journey has been an unforgettable rollercoaster of triumphs, challenges, and unbreakable bonds. Through sweat, teamwork, and unwavering determination, we have forged a legacy that will forever live on the court.
                         </p>
                     </div>
                     {/* <div class="strip"></div> */}

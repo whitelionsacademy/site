@@ -11,7 +11,6 @@ function ExperienceSec(){
                 <div class="journsection">
                     <div class="journey">
                         <h2 class="text tex">Our Journey</h2>
-                        <br />
                         <p class="journeyparag Parag">Embarking on a basketball journey is a transformative experience that shapes the lives of players, coaches,
                          and fans alike. At WhiteLion Basketball Academy, we understand the significance of this journey and aim to capture its essence through our dedicated "Journey"
                           section. Here, we chronicle the stories, struggles, triumphs, and inspirations that accompany the basketball adventure. 

@@ -683,6 +683,17 @@ iframe {
     
 }
 
+@media (max-width: 600px) {
+
+    .sponimg {
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 0 6% 3% 0%;
+    }
+
+}
+
 @media (min-width: 1300px) {
     iframe {
         width: 100%;

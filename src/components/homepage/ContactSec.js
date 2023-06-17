@@ -12,8 +12,8 @@ function ContactSec(){
         <div class="contact">
             <div class="contacts">
                 <div class="contactf">
-                    <h3>Contact</h3><br class="brs" />
-                    <p> Our Content section serves as your gateway to all things basketball. 
+                    <h3>Access</h3><br class="brs" />
+                    <p> Our access section serves as your gateway to all things basketball. 
                     With a diverse array of articles, analysis, tutorials, and features,
                      we aim to cater to the diverse interests and passions of the basketball community. </p>
                     <p class="cont">At WhiteLion Basketball Academy, our Content section is the ultimate destination for basketball enthusiasts seeking a

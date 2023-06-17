@@ -13,10 +13,10 @@ function Testmionials(){
                 <div class="testsec col-md-4 col-sm-6 col-xs-12">
                     <img src={t1} class="rounded-circle testimg"></img>
                     <div>
-                        <p id="testpg">Discover the remarkable journeys of players who have thrived on and off the court. 
-                        In this section, we feature testimonials from players who have overcome challenges, achieved their goals,
-                        and found personal fulfillment through basketball. Hear about their triumphs, the lessons they've learned, and the impact the game has had on their lives. From high school standouts to professional athletes, their stories serve 
-                        as a powerful reminder of the potential for growth and success through basketball.</p>
+                        <p id="testpg">
+                        This basketball academy is a game-changer for aspiring athletes. With its cutting-edge training methods and passionate coaching staff, it's the perfect place to develop skills and chase dreams. Don't miss out on this incredible opportunity!
+                            
+                        </p>
                         <div></div>
                     </div>
                 </div>
@@ -24,10 +24,7 @@ function Testmionials(){
                 <div class="testsec col-md-4 col-sm-6 col-xs-12">
                     <img src={t2} class="rounded-circle testimg"></img>
                     <div>
-                        <p id="testpg">From player success stories and coaching testimonials to community connections 
-                        and youth development, these testimonials exemplify the profound influence of the game on individuals 
-                        and communities. Join us in celebrating the transformative power 
-                        of basketball through the inspiring voices and experiences shared in this section.</p>
+                        <p id="testpg">I am excited to endorse this basketball academy as a premier destination for aspiring players. With its top-tier coaching staff and dedication to skill development, this academy is sure to propel young athletes to new heights</p>
                         <div></div>
                     </div>
                 </div>
@@ -35,11 +32,7 @@ function Testmionials(){
                 <div class="testsec col-md-4 col-sm-6 col-xs-12">
                     <img src={t3} class="rounded-circle testimg"></img>
                     <div>
-                        <p id="testpg">Basketball is a game that inspires and connects people across generations, 
-                        cultures, and backgrounds. In this section, we highlight testimonials from individuals whose 
-                        lives have been touched by basketball in unique ways. From stories of encountering their basketball 
-                        idols to experiencing the thrill of attending live games, these testimonials 
-                        capture the magic and inspiration that basketball evokes in fans of all ages.</p>
+                        <p id="testpg">I wholeheartedly support this basketball academy as a game-changing opportunity for aspiring players. With its focus on skill development, mentorship, and character building, it's the perfect place to nurture talent and shape future basketball stars.</p>
                         <div></div>
                     </div>
                 </div>

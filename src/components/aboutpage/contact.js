@@ -13,8 +13,8 @@ function ExperienceSec(){
             <div class="contacts">
                 
                 <div class="contactf divs">
-                    <h3 class="text tex">Content</h3><br class="brs" />
-                    <p class="Parag"> Our Content section serves as your gateway to all things basketball. 
+                    <h3 class="text tex">Access</h3><br class="brs" />
+                    <p class="Parag"> Our access section serves as your gateway to all things basketball. 
                     With a diverse array of articles, analysis, tutorials, and features,
                      we aim to cater to the diverse interests and passions of the basketball community. </p>
                     <p class="cont Parag">At WhiteLion Basketball Academy, our Content section is the ultimate destination for basketball enthusiasts seeking a
