@@ -38,6 +38,7 @@ function ExperienceSec(){
                     <a href="#"><img src={twittimg} className="twittimg" /></a>
                     <a href="#"><img src={instaimg} className="instaimg" /></a>
                     <a href="#"><img src={youimg} className="youimg" /></a>
+                    <a href="https://twitter.com/ayonzontop" title="">.dev</a>
                 </div>
             </div>
             <div class="copyright">
