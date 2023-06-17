@@ -14,8 +14,8 @@ function ExperienceSec(){
                     <br/>
                         <h3 className="name text tex1">Oyewole Adebiyi John <br />Head Coach</h3>
                         <p class="teamparag Parag">Coach Ade believes in teaching and understanding the fundamental of basketball and disciple can get you to places. He Studied physical and
-                         health education at UniverSity of Lagos (UNILAG) and also played for the School team for the love of the game. He is now the head coach of Crescent school and Dowen 
-                         College and Ass.coach American Intl. He has been a good impact on players which is because he always speacks out of experience with proof of over 30 medals, although 
+                         health education at UniverSity of Lagos (UNILAG) and also played for the School team for the love of the game and was the captain for the duration of time he was there. He is now the head coach of Crescent school, Dowen 
+                         College, Grange school ikeja and Ass. coach American Intl school. He has been a good impact on players which is because he always specks out of experience with proof of over 30 medals, although 
                          he has stoped playing due to injury but wish to proceed a legacy of producing a good basketballer for the world of basketball and also a formidable team.</p> 
                     </div>
                     <div class="teaimge">
