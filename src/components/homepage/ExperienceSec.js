@@ -22,9 +22,7 @@ function ExperienceSec(){
                 <div class="expdiv">
                     <div class="expcard card">
                         <p id="expparag">
-                            Lorem ipsum. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Sed facilisis 
-                            pretium purus eget egestas. Donec at arcu ornare. Sed facilisis pretium purus eget egestas. Donec at arcu ornar 
-                            
+                        As a team, our journey has been an unforgettable rollercoaster of triumphs, challenges, and unbreakable bonds. Through sweat, teamwork, and unwavering determination, we have forged a legacy that will forever live on the court.
                         </p>
                     </div>
                     {/* <div class="strip"></div> */}

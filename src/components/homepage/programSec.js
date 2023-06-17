@@ -18,7 +18,10 @@ function ProgramSec(){
 
                     <img src={progimg} class="rounded float-right progimg"></img>
                     <div class="progdiv">
-                        <p class='ptag'>Duis rutrum lacus eu lacus varius commodo. Pellentesque lobortis tellus a lacus dictum molestie. Sed sit amet augue euismod, dictum risus at, vestibulum libero. Vestibulum aliquam arcu sapien, in lacinia erat pharetra sit amet. Sed lacinia libero ante, eget pretium magna tempus in. </p>
+                        <p class='ptag'>Every position on the 
+                        basketball court demands unique skills and responsibilities. In our training section, we offer position-specific workouts and training 
+                        regimens catered to guards, forwards, centers, and more. Whether you want to improve your point guard playmaking abilities or enhance your post moves as a center, our 
+                        targeted training resources will help you develop the specialized skills needed to excel in your role.</p>
                         <div class="pstrip"></div>
                     </div>
                     
@@ -28,7 +31,10 @@ function ProgramSec(){
 
                     <img src={progimg2} class="rounded float-left progimg"></img>
                     <div class="progdiv" id="progdivmiddle">
-                        <p class='ptag'>Duis rutrum lacus eu lacus varius commodo. Pellentesque lobortis tellus a lacus dictum molestie. Sed sit amet augue euismod, dictum risus at, vestibulum libero. Vestibulum aliquam arcu sapien, in lacinia erat pharetra sit amet. Sed lacinia libero ante, eget pretium magna tempus in. </p>
+                        <p class='ptag'>Mastering the fundamental skills is essential for every basketball player. In this section,
+                        we break down the core elements of the game, including shooting, dribbling, passing, and defense. Through detailed tutorials, 
+                        drills, and practice tips, we guide you in honing these fundamental skills, helping you build a 
+                        strong basketball foundation that will serve as a springboard for your overall development.</p>
                         <div class="pstrip"></div>
                     </div>
                     
@@ -38,7 +44,10 @@ function ProgramSec(){
 
                     <img src={progimg3} class="rounded float-right progimg"></img>
                     <div class="progdiv">
-                        <p class='ptag'>Duis rutrum lacus eu lacus varius commodo. Pellentesque lobortis tellus a lacus dictum molestie. Sed sit amet augue euismod, dictum risus at, vestibulum libero. Vestibulum aliquam arcu sapien, in lacinia erat pharetra sit amet. Sed lacinia libero ante, eget pretium magna tempus in. </p>
+                        <p class='ptag'>We are dedicated to supporting your 
+                        journey and helping you reach your full potential on the court. Through comprehensive training guides, position-specific workouts, strength and conditioning 
+                        plans, and mental training exercises, we provide the tools and knowledge you need to elevate your skills, enhance your 
+                        basketball IQ, and excel in every aspect of the game. Step into the Training Zone and unlock your true basketball potential today.</p>
                         <div class="pstrip"></div>
                     </div>
                     
