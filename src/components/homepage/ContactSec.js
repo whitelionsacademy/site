@@ -14,10 +14,10 @@ function ContactSec(){
                 <div class="contactf">
                     <h3>Access</h3><br class="brs" />
                     <p> Our access section serves as your gateway to all things basketball. 
-                    With a diverse array of articles, analysis, tutorials, and features,
+                    With a diverse array of trainings, workouts and teaching,
                      we aim to cater to the diverse interests and passions of the basketball community. </p>
-                    <p class="cont">At WhiteLion Basketball Academy, our Content section is the ultimate destination for basketball enthusiasts seeking a
-                     wealth of engaging and informative material.</p>
+                    <p class="cont">At WhiteLion Basketball Academy, our access section is the ultimate destination for basketball enthusiasts seeking
+                     to reach out and learn from us.</p>
                 </div>
                 <div class="contactflex">
                     <h3>About</h3><br class="brs" />
