@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 
 function LandingHomeSec(){
     return (
-        <div class="landingsec">
+        <div className="landingsec">
             <NavSec/>
             <div className="landingsecmid">
                 <h1 className="headertext" >WhiteLions Basketball Academy</h1>
-                 <Link to="/about"><button id="btn1" class="btn btn-light btn-lg">About us</button></Link>
-                {/* <button id="btn2" class="btn btn-light btn-lg"> Explore</button> */}
+                 <Link to="/about"><button id="btn1" className="btn btn-light btn-lg">About us</button></Link>
+                {/* <button id="btn2" className="btn btn-light btn-lg"> Explore</button> */}
                 <img className="landhomeimg"></img>
             </div>
             

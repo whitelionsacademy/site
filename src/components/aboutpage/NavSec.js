@@ -9,47 +9,47 @@ function NavSec(){
     if (true) {
         return (
             <div className="navmain">
-                <nav class="navbar navbar-expand-lg navbar-light">
+                <nav className="navbar navbar-expand-lg navbar-light">
                     <img src={logo} className="About-logo" alt="logo" />
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active activebd">
-                                <Link class="nav-link" to="/">Home</Link>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav mr-auto">
+                            <li className="nav-item active ">
+                                <Link className="nav-link" to="/">Home</Link>
                             </li>
-                            <li class="nav-item active activebd">
-                                <Link class="nav-link" to="/about">About</Link>
+                            <li className="nav-item active activebd">
+                                <Link className="nav-link" to="/about">About</Link>
                             </li>
-                            <li class="nav-item  active">
-                                <a class="nav-link" href="#">Program</a>
+                            <li className="nav-item  active">
+                                <a className="nav-link" href="#">Program</a>
                             </li>
-                            <li class="nav-item dropdown active">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <li className="nav-item dropdown active ">
+                                <Link className="nav-link dropdown-toggle" to="/gallery" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Gallery
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Item</a>
-                                    <a class="dropdown-item" href="#">Item</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Item</a>
+                                </Link>
+                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a className="dropdown-item" href="#">Item</a>
+                                    <a className="dropdown-item" href="#">Item</a>
+                                    <div className="dropdown-divider"></div>
+                                    <a className="dropdown-item" href="#">Item</a>
                                 </div>
                             </li>
-                            <li class="nav-item  active">
-                                <a class="nav-link" href="#">Players</a>
+                            <li className="nav-item  active">
+                                <a className="nav-link" href="#">Players</a>
                             </li>
-                            <li class="nav-item  active">
-                                <a class="nav-link" href="#">Contact</a>
+                            <li className="nav-item  active">
+                                <a className="nav-link" href="#">Contact</a>
                             </li>
                             
                         </ul>                
                     </div>
 
-                    <div class="input-group search">
-                        <input type="text" class="form-control" placeholder="Search" aria-label="Search"></input>
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-secondary" type="button">Search</button>
+                    <div className="input-group search">
+                        <input type="text" className="form-control" placeholder="Search" aria-label="Search"></input>
+                        <div className="input-group-append">
+                            <button className="btn btn-outline-secondary" type="button">Search</button>
                         </div>
                     </div>
                     

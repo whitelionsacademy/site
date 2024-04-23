@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function LandingSec(){
     return (
-        <div class="abtlandingSec">
+        <div className="abtlandingSec">
             <NavSec/>
             <div className="abtlandingsecmid">
                 <img src={landimg} className="landImg"></img>

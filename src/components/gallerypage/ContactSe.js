@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
-function ContactSec(){
+function ContactSect(){
     return (
         <div className="contact">
             <div className="contacts">
@@ -20,10 +20,10 @@ function ContactSec(){
                      wealth of engaging and informative material.</p>
                 </div>
                 <div className="contactflex divs">
-                    <a className="text tex" href="#"><h3>Home</h3></a><br />
+                <a className="text tex" href="#"><h3>Gallery</h3></a><br />
+                    <a className="nav-link" href="#">Home</a><br />
                     <a className="nav-link" href="#">About</a><br />
                     <a className="nav-link" href="#">Program</a><br />
-                    <a className="nav-link" href="#">Gallery</a><br />
                     <a className="nav-link" href="#">Players</a><br />
                     <a className="nav-link" href="#">Contact</a><br />
                 </div>
@@ -47,4 +47,4 @@ function ContactSec(){
     );
 }
 
-export default ContactSec;
+export default ContactSect;

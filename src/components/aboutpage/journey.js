@@ -4,21 +4,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
-function ExperienceSec(){
+function JourneySec(){
     return (
-        <div class="journ">
-            <div class="journflex">
-                <div class="journsection">
-                    <div class="journey">
-                        <h2 class="text tex">Our Journey</h2>
-                        <p class="journeyparag Parag">In the realm of our basketball academy, a transformative journey unfurls. Aspiring athletes step onto the court, driven by ambition and an unquenchable thirst for greatness. Through sweat-drenched hours of training, relentless perseverance, and unwavering dedication, they sculpt their skills and character. Their journey shapes them into elite players, destined to leave an indelible mark on the basketball world.</p>
+        <div className="journ">
+            <div className="journflex">
+                <div className="journsection">
+                    <div className="journey">
+                        <h2 className="text tex">Our Journey</h2>
+                        <br />
+                        <p className="journeyparag Parag">Embarking on a basketball journey is a transformative experience that shapes the lives of players, coaches,
+                         and fans alike. At WhiteLion Basketball Academy, we understand the significance of this journey and aim to capture its essence through our dedicated "Journey"
+                          section. Here, we chronicle the stories, struggles, triumphs, and inspirations that accompany the basketball adventure. 
+                        Join us as we dive into the captivating tales that make basketball more than just a game.</p>
                         
                     </div>
-                    <div class="jourimge">
-                    <img src={journimg} className="rounded journimg" />
+                    <div className="jourimge">
+                    <img src={journimg} className="rounded journimg" alt="Game Picture"/>
                     </div>
-                    <div class="journey">
-                        <p class="journeyparag2 Parag">Within the walls of our basketball academy, a remarkable journey unfolds. ambitious athletes arrive, their dreams shining brightly in their eyes, fueled by a burning passion for the game. Through rigorous training, they cultivate their skills, pushing boundaries and overcoming obstacles. Guided by expert coaches, they develop not only as players but as individuals, learning the values of teamwork, discipline, and resilience. Their journey culminates in the emergence of elite players, ready to conquer the court and inspire generations to come.</p>
+                    <div className="journey">
+                        <p className="journeyparag2 Parag">The basketball journey is a captivating tapestry of stories, emotions, and memories.
+                         At WhiteLion Basketball Academy, our Journey section serves as a platform to honor and share these narratives, celebrating the transformative 
+                         power of basketball. Join us as we explore the personal triumphs, community impact, and inspiring moments that make the basketball journey 
+                         a profound and unforgettable experience. Let these stories inspire you 
+                        to embark on your own basketball journey, ready to make your mark on and off the court.</p>
                     </div>
                 </div>
             </div>
@@ -26,4 +34,4 @@ function ExperienceSec(){
     );
 }
 
-export default ExperienceSec;
+export default JourneySec;

@@ -7,45 +7,45 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
-function ExperienceSec(){
+function ContactSec(){
     return (
-        <div class="contact">
-            <div class="contacts">
+        <div className="contact">
+            <div className="contacts">
                 
-                <div class="contactf divs">
-                    <h3 class="text tex">Access</h3><br class="brs" />
-                    <p class="Parag"> Our access section serves as your gateway to all things basketball. 
-                    With a diverse array of trainings, workouts, teaching,
+                <div className="contactf divs">
+                    <h3 className="text tex">Content</h3><br className="brs" />
+                    <p className="Parag"> Our Content section serves as your gateway to all things basketball. 
+                    With a diverse array of articles, analysis, tutorials, and features,
                      we aim to cater to the diverse interests and passions of the basketball community. </p>
-                    <p class="cont Parag">At WhiteLion Basketball Academy, our access section is the ultimate destination for basketball enthusiasts seeking
-                     to reach out to us..</p>
+                    <p className="cont Parag">At WhiteLion Basketball Academy, our Content section is the ultimate destination for basketball enthusiasts seeking a
+                     wealth of engaging and informative material.</p>
                 </div>
-                <div class="contactflex divs">
-                    <h3 class="text tex">About</h3><br class="brs" />
-                    <a class="nav-link" href="#">Home</a><br />
-                    <a class="nav-link" href="#">Programme</a><br />
-                    <a class="nav-link" href="#">Gallery</a><br />
-                    <a class="nav-link" href="#">Contact</a><br />
+                <div className="contactflex divs">
+                <a className="text tex" href="#"><h3>About</h3></a><br />
+                    <a className="nav-link" href="#">Home</a><br />
+                    <a className="nav-link" href="#">Program</a><br />
+                    <a className="nav-link" href="#">Gallery</a><br />
+                    <a className="nav-link" href="#">Players</a><br />
+                    <a className="nav-link" href="#">Contact</a><br />
                 </div>
-                <div class="quick divs">
-                    <h3 class="text tex">Address</h3><br class="brs" />
-                    <p class="Parag">Lagos Nigeria <br />
+                <div className="quick divs">
+                    <h3 className="text tex">Address</h3><br className="brs" />
+                    <p className="Parag">Lagos Nigeria <br />
                     10 Lambo Iasunwo firstgate opp. Laspotech IkoroduNorth, Lagos NG, 100001, Ikorodu.</p>
                 </div>
-                <div class="icons divs">
-                    <h3 class="text tex">Follow Us</h3>
+                <div className="icons divs">
+                    <h3 className="text tex">Follow Us</h3>
                     <a href="#"><img src={faceimg} className="faceimg" /></a>
                     <a href="#"><img src={twittimg} className="twittimg" /></a>
                     <a href="#"><img src={instaimg} className="instaimg" /></a>
                     <a href="#"><img src={youimg} className="youimg" /></a>
-                    <a href="https://twitter.com/ayonzontop" title="">.dev</a>
                 </div>
             </div>
-            <div class="copyright">
+            <div className="copyright">
                 <p>©2023 whiteLions Basketball Academy</p>
             </div>
         </div>    
     );
 }
 
-export default ExperienceSec;
+export default ContactSec;

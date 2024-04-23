@@ -2,11 +2,11 @@ import React from "react";
 
 function JoinAcadSec(){
     return (
-        <div class="acadmain">      
-            <div class="acadsub">
-                <div class="acadminsub">
+        <div className="acadmain">      
+            <div className="acadsub">
+                <div className="acadminsub">
                     
-                    <h2 class="progtext txt1">
+                    <h2 className="progtext txt1">
                         Join Academy
                     </h2>
                     <p id="jointxt">
@@ -17,7 +17,7 @@ function JoinAcadSec(){
                     future in the game. Together, let's unleash your potential and create a legacy in the world of basketball.
                     </p>
 
-                    <button class="btn btn-outline-secondary" id="joinbutton" type="submit">Register</button>
+                    <button className="btn btn-outline-secondary" id="joinbutton" type="submit">Register</button>
                     
                     
                 </div>

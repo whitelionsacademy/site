@@ -78,18 +78,18 @@
     text-align: justify;
     font-size: 1rem
 }
+
 .missvis{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
     background-image: url('./media/image 5.png');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 7%;
+    height: 50%;
+    width: 100%;
 }
+
 .missflex{
     display: flex;
     flex-wrap: wrap;
@@ -404,6 +404,7 @@
 }
 
 @media (max-width:600px) { /*PHONE VIEW */
+    
     .missflex{
         padding: 0px 0px 0px;
         height: 100%;        
@@ -435,7 +436,7 @@
 
     .misimge{
         width: 100%;
-        height: 100%;
+        height: 0%;
     }
 
     .vision{
@@ -455,7 +456,7 @@
 
     .vimge{
         width: 100%;
-        height: 100%;
+        height: 0%;
     }
 
     .visimg{
@@ -513,7 +514,11 @@
 
     .teaimge{
         width: 100%;
-        height: 100%;
+        height: 0%;
+    }
+
+    .teaimg{
+        width: 100%;
     }
     
     .contact{
