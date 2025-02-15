@@ -2,6 +2,7 @@ import './App.css';
 import Homepage from './components/Homepage.js';
 import Aboutpage from './components/Aboutpage.js';
 import Gallerypage from './components/Gallerypage.js';
+import Playerspage from './components/Playerspage.js';
 import {BrowserRouter, HashRouter,Routes, Route} from "react-router-dom";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<Homepage/>}/>
           <Route path="/about" element={<Aboutpage/>}/> 
           <Route path="/gallery" element={<Gallerypage/>}/>
+          <Route path="/players" element={<Playerspage/>}/>
       </Routes>
 
     </BrowserRouter>

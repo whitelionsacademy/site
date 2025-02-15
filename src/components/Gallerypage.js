@@ -10,7 +10,7 @@ function Gallerypage() {
 
     useEffect(() => {
 
-        const images = document.querySelectorAll('.gallery-imagela');
+        const images = document.querySelectorAll('.gallery-imagela,.gallery-imageco,.gallery-imageEx');
         const popup = document.getElementById('popup');
         const closePopup = document.getElementById('closePopup');
         const popupImage = document.getElementById('popupImage');

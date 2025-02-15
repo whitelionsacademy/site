@@ -25,10 +25,10 @@ function NavSec(){
                             <li className="nav-item  active">
                                 <a className="nav-link" href="#">Program</a>
                             </li>
-                            <li className="nav-item dropdown active activebd">
-                                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <li className="nav-item dropdown active ">
+                                <Link className="nav-link dropdown-toggle" to="/gallery" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Gallery
-                                </a>
+                                </Link>
                                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a className="dropdown-item" href="#">Item</a>
                                     <a className="dropdown-item" href="#">Item</a>
@@ -36,8 +36,8 @@ function NavSec(){
                                     <a className="dropdown-item" href="#">Item</a>
                                 </div>
                             </li>
-                            <li className="nav-item  active">
-                                <Link className="nav-link" to="/players">Players</Link>
+                            <li className="nav-item  active activebd">
+                                <a className="nav-link" href="#">Players</a>
                             </li>
                             <li className="nav-item  active">
                                 <a className="nav-link" href="#">Contact</a>
