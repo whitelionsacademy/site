@@ -1,6 +1,7 @@
 .Home-logo {
     height: 4em;
     float: left;
+
 }
 
 .navmain {
@@ -36,7 +37,7 @@
 
 .landingsec {
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('./media/landimg.jpeg');
+    background-image: url('/public/landimg.jpeg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
@@ -46,7 +47,7 @@
 }
 
 .landhomeimg {
-    background-image: url('./media/landimg.jpeg');
+    background-image: url('/public/landimg.jpeg');
     background-size: cover;
     text-align: center;
     height: 93%;
@@ -56,7 +57,7 @@
 
 
 /* .landimg:hover {
-    background-image: url('./media/landimgalt.jpeg');
+    background-image: url('/public/landimgalt.jpeg');
 
 } */
 
@@ -85,7 +86,7 @@
 
 .expsec {
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('./media/exp.jpg');
+    background-image: url('/public/exp.jpg');
     background-blend-mode: luminosity;
     background-repeat: repeat;
     background-position: center;
@@ -185,7 +186,7 @@ iframe {
 /* ----program */
 .progmain {
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('./media/progbg.jpeg');
+    background-image: url('/public/progbg.jpeg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
@@ -254,7 +255,7 @@ iframe {
 
 .acadmain {
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('./media/acadmainpic.jpeg');
+    background-image: url('/public/acadmainpic.jpeg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
@@ -265,7 +266,7 @@ iframe {
 }
 
 .acadsub {
-    background-image: url('./media/acadmainpic.jpeg');
+    background-image: url('/public/acadmainpic.jpeg');
     background-blend-mode: normal;
     background-repeat: no-repeat;
     background-position: center;
@@ -347,7 +348,7 @@ iframe {
 
 .testmain {
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('./media/testm.jpeg');
+    background-image: url('/public/testm.jpeg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
@@ -453,7 +454,7 @@ iframe {
         height: 100%;
         width: 100%;
         background-color: rgba(255, 255, 255, 1);
-        background-image: url('./media/landimg.jpeg');
+        background-image: url('/public/landimg.jpeg');
         background-blend-mode: luminosity;
         background-repeat: no-repeat;
         background-position: center;
@@ -470,7 +471,7 @@ iframe {
     } */
 
     .landimg {
-        background-image: url('./media/landimg.jpeg');
+        background-image: url('/public/landimg.jpeg');
         background-size: cover;
         text-align: center;
         object-fit: cover;
@@ -480,7 +481,7 @@ iframe {
     }
     
     .landimg:hover {
-        background-image: url('./media/progimg.jpeg');
+        background-image: url('/public/progimg.jpeg');
         background-size: cover;
     
     }
@@ -509,7 +510,7 @@ iframe {
 
     .expsec {
         background-color: rgba(255, 255, 255, 1);
-        background-image: url('./media/exp.jpg');
+        background-image: url('/public/exp.jpg');
         background-repeat: repeat;
         background-blend-mode: luminosity;
         background-position: center;
@@ -605,7 +606,7 @@ iframe {
 
     .progmain {
         background-color: rgba(255, 255, 255, 1);
-        background-image: url('./media/progbg.jpeg');
+        background-image: url('/public/progbg.jpeg');
         background-blend-mode: luminosity;
         background-repeat: no-repeat;
         background-position: center;
@@ -626,7 +627,7 @@ iframe {
 
     .acadmain {
         background-color: rgba(255, 255, 255, 1);
-        background-image: url('./media/acadmainpic.jpeg');
+        background-image: url('/public/acadmainpic.jpeg');
         background-blend-mode: luminosity;
         background-repeat: no-repeat;
         background-position: center;

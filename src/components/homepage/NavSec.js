@@ -1,5 +1,4 @@
 import React from "react";
-import logo from '../media/whiteLion.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Link } from "react-router-dom";
@@ -11,7 +10,7 @@ function NavSec(){
         return (
             <div className="navmain">
                 <nav className="navbar navbar-expand-lg navbar-light">
-                    <img src={logo} className="Home-logo" alt="logo" />
+                <img src={process.env.PUBLIC_URL + '/logo.png'} className="Home-logo" alt="logo" />
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -19,7 +18,7 @@ function NavSec(){
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active activebd">
-                                <Link className="nav-link" to="/">Home</Link>
+                            <a className="nav-link" href="#">Home</a>
                             </li>
                             <li className="nav-item active ">
                                 <Link className="nav-link" to="/about">About</Link>

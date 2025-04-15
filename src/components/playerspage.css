@@ -63,7 +63,7 @@
 
 .tealandingSec {
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('./media/landimgabout0.jpeg');
+    background-image: url('/public/landimgabout0.jpeg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
@@ -157,7 +157,7 @@
 
 .shootgua{
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('./media/acadmainpic.jpeg');
+    background-image: url('/public/acadmainpic.jpeg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
@@ -236,7 +236,7 @@
 
 .powerfor{
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('./media/progbg.jpeg');
+    background-image: url('/public/progbg.jpeg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
@@ -315,7 +315,7 @@
 
 .coach{
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('./media/image 010.jpg');
+    background-image: url('/public/image 010.jpg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;

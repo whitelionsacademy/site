@@ -1,7 +1,4 @@
 import React from "react";
-import t1 from  '../media/t1.jpeg';
-import t2 from  '../media/t2.jpeg';
-import t3 from  '../media/t3.jpeg';
 
 
 function Testmionials(){
@@ -11,7 +8,7 @@ function Testmionials(){
             <div className="testone row">
 
                 <div className="testsec col-md-4 col-sm-6 col-xs-12">
-                    <img src={t1} className="rounded-circle testimg" alt=""></img>
+                    <img src={process.env.PUBLIC_URL + '/t1.jpeg'} className="rounded-circle testimg" alt=""></img>
                     <div>
                         <p id="testpg">Discover the remarkable journeys of players who have thrived on and off the court. 
                         In this section, we feature testimonials from players who have overcome challenges, achieved their goals,
@@ -22,7 +19,7 @@ function Testmionials(){
                 </div>
 
                 <div className="testsec col-md-4 col-sm-6 col-xs-12">
-                    <img src={t2} className="rounded-circle testimg" alt=""></img>
+                    <img src={process.env.PUBLIC_URL + '/t2.jpeg'} className="rounded-circle testimg" alt=""></img>
                     <div>
                         <p id="testpg">From player success stories and coaching testimonials to community connections 
                         and youth development, these testimonials exemplify the profound influence of the game on individuals 
@@ -33,7 +30,7 @@ function Testmionials(){
                 </div>
 
                 <div className="testsec col-md-4 col-sm-6 col-xs-12">
-                    <img src={t3} className="rounded-circle testimg" alt=""></img>
+                    <img src={process.env.PUBLIC_URL + '/t3.jpeg'} className="rounded-circle testimg" alt=""></img>
                     <div>
                         <p id="testpg">Basketball is a game that inspires and connects people across generations, 
                         cultures, and backgrounds. In this section, we highlight testimonials from individuals whose 

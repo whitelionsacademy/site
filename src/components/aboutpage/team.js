@@ -1,5 +1,4 @@
 import React from "react";
-import teaimg from '../media/image_co.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -19,7 +18,7 @@ function TeamSec(){
                          he has stoped playing due to injury but wish to proceed a legacy of producing a good basketballer for the world of basketball and also a formidable team.</p> 
                     </div>
                     <div className="teaimge">
-                    <img src={teaimg} className="rounded teaimg" alt="Coach Picture"/>
+                    <img src="image_co.jpg" className="rounded teaimg" alt="Coach Pics"/>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import teaimg from '../media/image_co.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,11 +13,11 @@ function CoachSec(){
                 <h2 className="text tex">Coaches</h2>
                 </div>
                 <div className="coachsecmid">
-                    <span><img src={teaimg} className="teaimg" alt=""/>
-                    <p className="textPG tex">John Doe</p>
+                    <span><img src="image_co.jpg" className="teaimg" alt=""/>
+                    <p className="textPG tex">Oyewole Adebiyi John</p>
                     </span>
-                    <span><img src={teaimg} className="teaimg" alt=""/>
-                    <p className="textPG tex">John Doe</p>
+                    <span><img src="image_co.jpg" className="teaimg" alt=""/>
+                    <p className="textPG tex">Oyewole Adebiyi John</p>
                     </span>
                 </div>
             </div>

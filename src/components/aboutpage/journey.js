@@ -1,5 +1,4 @@
 import React from "react";
-import journimg from '../media/journimg.jpeg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -19,7 +18,7 @@ function JourneySec(){
                         
                     </div>
                     <div className="jourimge">
-                    <img src={journimg} className="rounded journimg" alt="Game Picture"/>
+                    <img src="journimg.jpeg" className="rounded journimg" alt="Game Pics"/>
                     </div>
                     <div className="journey">
                         <p className="journeyparag2 Parag">The basketball journey is a captivating tapestry of stories, emotions, and memories.

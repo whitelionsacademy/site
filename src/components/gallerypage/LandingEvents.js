@@ -1,14 +1,5 @@
 import React from "react";
 import NavSec from "./NavSec.js"
-import landimg1 from '../media/image001.jpg'
-import landimg2 from '../media/image002.jpg'
-import landimg3 from '../media/landimg.jpeg'
-import landimg4 from '../media/image004.jpg'
-import landimg5 from '../media/acadmainpic.jpeg'
-import landimg6 from '../media/image006.jpg'
-import landimg7 from '../media/landimgabout.jpeg'
-import landimg8 from '../media/progimg.jpeg'
-import landimg9 from '../media/journimg.jpeg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -26,15 +17,15 @@ function EventsSec() {
                         </div>
                         <div className="eventlan">
                             <div className="eventlandingsecimge">
-                                <img src={landimg1} className="rounded landImg1 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg2} className="rounded landImg2 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg6} className="rounded hunter landImg3 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg4} className="rounded landImg4 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg5} className="rounded hunter landImg5 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg3} className="rounded landImg6 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg7} className="rounded landImg7 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg8} className="rounded landImg8 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg9} className="rounded landImg9 gallery-imagela" alt="Team Picture"></img>
+                                <img src="image001.jpg" className="rounded landImg1 gallery-imagela" alt="Team pics"></img>
+                                <img src="image002.jpg" className="rounded landImg2 gallery-imagela" alt="Team pics"></img>
+                                <img src="image006.jpg" className="rounded hunter landImg3 gallery-imagela" alt="Team pics"></img>
+                                <img src="image004.jpg" className="rounded landImg4 gallery-imagela" alt="Team pics"></img>
+                                <img src="acadmainpic.jpeg" className="rounded hunter landImg5 gallery-imagela" alt="Team pics"></img>
+                                <img src="landimg.jpeg" className="rounded landImg6 gallery-imagela" alt="Team pics"></img>
+                                <img src="landimgabout.jpeg" className="rounded landImg7 gallery-imagela" alt="Team pics"></img>
+                                <img src="progimg.jpeg" className="rounded landImg8 gallery-imagela" alt="Team pics"></img>
+                                <img src="journimg.jpeg" className="rounded landImg9 gallery-imagela" alt="Team pics"></img>
                             </div>
                             <div className="popup" id="popup">
                                 <span className="close" id="closePopup">&times;</span>
