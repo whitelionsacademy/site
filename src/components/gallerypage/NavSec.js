@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
 
 
@@ -9,7 +10,7 @@ function NavSec(){
         return (
             <div className="navmain">
                 <nav className="navbar navbar-expand-lg navbar-light">
-                    <img src="logo.png" className="About-logo" alt="logo" />
+                    <img src={logo} className="About-logo" alt="logo" />
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

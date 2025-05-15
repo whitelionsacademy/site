@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../images/logo.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import { Link } from "react-router-dom";
@@ -10,7 +11,7 @@ function NavSec(){
         return (
             <div className="navmain">
                 <nav className="navbar navbar-expand-lg navbar-light">
-                <img src={process.env.PUBLIC_URL + '/logo.png'} className="Home-logo" alt="logo" />
+                <img src={logo} className="Home-logo" alt="logo" />
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

@@ -1,4 +1,7 @@
 import React from "react";
+import progimg from "../../images/progimg.jpeg";
+import progimg2 from "../../images/progimg2.jpeg";
+import progimg3 from "../../images/progimg3.jpeg";
 
 function ProgramSec(){
     return (
@@ -13,7 +16,7 @@ function ProgramSec(){
 
                 <div className="progone">
 
-                    <img src= {process.env.PUBLIC_URL + '/progimg.jpeg'} className="rounded float-right progimg" alt="Team pics"></img>
+                    <img src= {progimg} className="rounded float-right progimg" alt="Team pics"></img>
                     <div className="progdiv">
                         <p className='ptag'>Every position on the 
                         basketball court demands unique skills and responsibilities. In our training section, we offer position-specific workouts and training 
@@ -26,7 +29,7 @@ function ProgramSec(){
 
                 <div className="progone" id="progonemiddle">
 
-                    <img src= {process.env.PUBLIC_URL + '/progimg2.jpeg'} className="rounded float-left progimg" alt="Team pics"></img>
+                    <img src= {progimg2} className="rounded float-left progimg" alt="Team pics"></img>
                     <div className="progdiv" id="progdivmiddle">
                         <p className='ptag'>Mastering the fundamental skills is essential for every basketball player. In this section,
                         we break down the core elements of the game, including shooting, dribbling, passing, and defense. Through detailed tutorials, 
@@ -39,7 +42,7 @@ function ProgramSec(){
 
                 <div className="progone">
 
-                    <img src= {process.env.PUBLIC_URL + '/progimg3.jpeg'} className="rounded float-right progimg" alt="Training Pics"></img>
+                    <img src= {progimg3} className="rounded float-right progimg" alt="Training Pics"></img>
                     <div className="progdiv">
                         <p className='ptag'>We are dedicated to supporting your 
                         journey and helping you reach your full potential on the court. Through comprehensive training guides, position-specific workouts, strength and conditioning 

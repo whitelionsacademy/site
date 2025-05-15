@@ -35,7 +35,7 @@
 
 .abtlandingSec {
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('/public/landimgabout0.jpeg');
+    background-image: url('../images/landimgabout0.jpeg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
@@ -81,7 +81,7 @@
 
 .missvis{
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('/public/image 5.png');
+    background-image: url('../images/image 5.png');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
@@ -155,7 +155,7 @@
     align-items: center;
     justify-content: center;
     height: auto;
-    background-image: url('/public/journimg.jpeg');
+    background-image: url('../images/journimg.jpeg');
     background-color: rgba(255, 255, 255, 1);
     background-blend-mode: luminosity;
     background-repeat: no-repeat;

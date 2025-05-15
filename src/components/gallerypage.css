@@ -36,7 +36,7 @@
 .eventlandingSec {
     position: relative;
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('/public/landimg.jpeg');
+    background-image: url('../images/landimg.jpeg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
@@ -107,7 +107,7 @@
 
 .compet {
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('/public/journimg.jpeg');
+    background-image: url('../images/journimg.jpeg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
@@ -224,7 +224,7 @@
 
 .exhibit {
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('/public/landimgabout.jpeg');
+    background-image: url('../images/landimgabout.jpeg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;

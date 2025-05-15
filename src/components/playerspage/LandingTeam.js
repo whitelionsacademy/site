@@ -1,5 +1,6 @@
 import React from "react";
 import NavSec from "./NavSec.js"
+import lanimg from "../../images/landimgabout.jpeg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -13,21 +14,21 @@ function LandingTeam() {
                         <h2 className="text tex"> Team </h2>
                     </div>
                     <div className="tealandingsecmid">
-                        <span><img src="landimgabout.jpeg" className=" landImgT" alt=""/>
+                        <span><img src= {lanimg} className=" landImgT" alt=""/>
                         <p>Point Guard</p></span>
-                        <span><img src="landimgabout.jpeg" className=" landImgT" alt=""/>
+                        <span><img src= {lanimg} className=" landImgT" alt=""/>
                         <p>Shooting Guard</p>
                         </span>
-                        <span><img src="landimgabout.jpeg" className=" landImgT" alt=""></img>
+                        <span><img src= {lanimg} className=" landImgT" alt=""></img>
                         <p>Power Forward</p>
                         </span>
-                        <span><img src="landimgabout.jpeg" className=" landImgT" alt=""></img>
+                        <span><img src= {lanimg} className=" landImgT" alt=""></img>
                         <p>Small Forward</p>
                         </span>
-                        <span><img src="landimgabout.jpeg" className=" landImgT" alt=""></img>
+                        <span><img src= {lanimg} className=" landImgT" alt=""></img>
                         <p>Center</p>
                         </span>
-                        <span><img src="landimgabout.jpeg" className=" landImgT" alt=""></img>
+                        <span><img src= {lanimg} className=" landImgT" alt=""></img>
                         <p>Coach</p>
                         </span>
                     </div>

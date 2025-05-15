@@ -1,4 +1,8 @@
 import React from "react";
+import fbicon from "../../images/facebook-48.png";
+import twicon from "../../images/twitter48.png";
+import inicon from "../../images/instagram-94.png";
+import yoicon from "../../images/youtube-48.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -30,10 +34,10 @@ function ContactSect(){
                 </div>
                 <div className="icons divs">
                     <h3 className="text tex">Follow Us</h3>
-                    <a href="#"><img src="facebook-48.png" className="faceimg" alt="Facebook logo" /></a>
-                    <a href="#"><img src="twitter48.png" className="twittimg" alt="Twitter logo" /></a>
-                    <a href="#"><img src="instagram-94.png" className="instaimg" alt="Instagram logo" /></a>
-                    <a href="#"><img src="youtube-48.png" className="youimg" alt="Youtube logo" /></a>
+                    <a href="#"><img src={fbicon} className="faceimg"alt="Facbook logo" /></a>
+                    <a href="#"><img src={twicon} className="twittimg" alt="Twitter logo" /></a>
+                    <a href="#"><img src={inicon} className="instaimg" alt="Instagram logo" /></a>
+                    <a href="#"><img src={yoicon} className="youimg" alt="Youtube logo" /></a>
                 </div>
             </div>
             <div className="copyright">

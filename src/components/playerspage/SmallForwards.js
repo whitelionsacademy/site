@@ -1,4 +1,5 @@
 import React from "react";
+import lanimg from "../../images/landimgabout.jpeg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,16 +15,16 @@ function SmallforwSec(){
                 <h3 className="tex">Division A</h3>
                 </div>
                 <div className="smallforwasecmid">
-                    <span><img src="landimgabout.jpeg" className=" landImgT" alt=""/>
+                    <span><img src= {lanimg} className=" landImgT" alt=""/>
                     <p className="textPG tex">John Doe</p>
                     </span>
-                    <span><img src="landimgabout.jpeg" className="landImgT" alt=""/>
+                    <span><img src= {lanimg} className="landImgT" alt=""/>
                     <p className="textPG tex">John Doe</p>
                     </span>
-                    <span><img src="landimgabout.jpeg" className="landImgT" alt=""/>
+                    <span><img src= {lanimg} className="landImgT" alt=""/>
                     <p className="textPG tex">John Doe</p>
                     </span>
-                    <span><img src="landimgabout.jpeg" className="landImgT" alt=""/>
+                    <span><img src= {lanimg} className="landImgT" alt=""/>
                     <p className="textPG tex">John Doe</p>
                     </span>
                 </div>
@@ -31,11 +32,11 @@ function SmallforwSec(){
                 <div className="smallwrt">
                 <h3 className="tex">Division B</h3>
                 </div>
-                <div className="smallforwasecmid">
-                    <span><img src="landimgabout.jpeg" className=" landImgT" alt=""/>
+                <div className= "smallforwasecmid">
+                    <span><img src= {lanimg} className=" landImgT" alt=""/>
                     <p className="textPG tex">John Doe</p>
                     </span>
-                    <span><img src="landimgabout.jpeg" className="landImgT" alt=""/>
+                    <span><img src= {lanimg} className="landImgT" alt=""/>
                     <p className="textPG tex">John Doe</p>
                     </span>
                     
