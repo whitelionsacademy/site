@@ -1,10 +1,11 @@
 import React from "react";
-import missimg from '../media/image 3.png'
-import visimg from '../media/vis6.jpg'
+import image3 from "../../images/image 3.png"; 
+import vis6 from "../../images/vis6.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import { Form } from "react-router-dom";
 
 
 function MissionSec(){
@@ -28,7 +29,7 @@ function MissionSec(){
                         </div>
 
                         <div className="misimge">
-                            <img src={missimg} className="rounded missimg" alt="Game Picture"/>
+                            <img src={image3} className="rounded missimg" alt="Game Pics"/>
                         </div>
                     </div>
 
@@ -49,7 +50,7 @@ function MissionSec(){
                              let's write the next chapter of basketball history and inspire generations to come.</p>
                         </div>
                         <div className="vimge">
-                            <img src={visimg} className="rounded visimg" alt="Team Picture"/>
+                            <img src={vis6} className="rounded visimg" alt="Team Pics"/>
                         </div>
                     </div>
                 </div>

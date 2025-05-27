@@ -1,5 +1,5 @@
 import React from "react";
-import img_spons from  '../media/spon_img.jpg';
+import spon_img from "../../images/spon_img.jpg";
 
 function Sponsor(){
 
@@ -7,7 +7,7 @@ function Sponsor(){
     <div className="spons">
         <h2 className="spontext txt1">Sponsor/Donate</h2>
         <div className="sponone">
-            <img src={img_spons} className="rounded float-right sponimg" alt=""></img>
+            <img src={spon_img} className="rounded float-right sponimg" alt="sponsor"></img>
             <div className="spondiv">
                 <p className="stag">
                 By becoming a sponsor or making a donation, you have the power to shape the future of basketball and make a meaningful 

@@ -1,14 +1,14 @@
 import React from "react";
+import img001 from "../../images/image001.jpg";
+import img002 from "../../images/image002.jpg";
+import img006 from "../../images/image006.jpg";
+import img004 from "../../images/image004.jpg";
+import acaimg from "../../images/acadmainpic.jpeg";
+import lanimg from "../../images/landimg.jpeg";
+import landimg from "../../images/landimgabout.jpeg";
+import proimg from "../../images/progimg.jpeg";
+import jouimg from "../../images/journimg.jpeg";
 import NavSec from "./NavSec.js"
-import landimg1 from '../media/image001.jpg'
-import landimg2 from '../media/image002.jpg'
-import landimg3 from '../media/landimg.jpeg'
-import landimg4 from '../media/image004.jpg'
-import landimg5 from '../media/acadmainpic.jpeg'
-import landimg6 from '../media/image006.jpg'
-import landimg7 from '../media/landimgabout.jpeg'
-import landimg8 from '../media/progimg.jpeg'
-import landimg9 from '../media/journimg.jpeg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -26,15 +26,15 @@ function EventsSec() {
                         </div>
                         <div className="eventlan">
                             <div className="eventlandingsecimge">
-                                <img src={landimg1} className="rounded landImg1 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg2} className="rounded landImg2 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg6} className="rounded hunter landImg3 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg4} className="rounded landImg4 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg5} className="rounded hunter landImg5 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg3} className="rounded landImg6 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg7} className="rounded landImg7 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg8} className="rounded landImg8 gallery-imagela" alt="Team Picture"></img>
-                                <img src={landimg9} className="rounded landImg9 gallery-imagela" alt="Team Picture"></img>
+                                <img src={img001} className="rounded landImg1 gallery-imagela" alt="Team pics"></img>
+                                <img src={img002} className="rounded landImg2 gallery-imagela" alt="Team pics"></img>
+                                <img src={img006} className="rounded hunter landImg3 gallery-imagela" alt="Team pics"></img>
+                                <img src={img004} className="rounded landImg4 gallery-imagela" alt="Team pics"></img>
+                                <img src={acaimg} className="rounded hunter landImg5 gallery-imagela" alt="Team pics"></img>
+                                <img src={lanimg} className="rounded landImg6 gallery-imagela" alt="Team pics"></img>
+                                <img src={landimg} className="rounded landImg7 gallery-imagela" alt="Team pics"></img>
+                                <img src={proimg} className="rounded landImg8 gallery-imagela" alt="Team pics"></img>
+                                <img src={jouimg} className="rounded landImg9 gallery-imagela" alt="Team pics"></img>
                             </div>
                             <div className="popup" id="popup">
                                 <span className="close" id="closePopup">&times;</span>

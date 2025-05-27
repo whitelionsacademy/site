@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../media/logo.png';
+import logo from "../../images/logo.png";
 import { Link } from "react-router-dom";
 
 
@@ -37,7 +37,7 @@ function NavSec(){
                                 </div>
                             </li>
                             <li className="nav-item  active">
-                                <a className="nav-link" href="#">Players</a>
+                                <Link className="nav-link" to="/players">Players</Link>
                             </li>
                             <li className="nav-item  active">
                                 <a className="nav-link" href="#">Contact</a>

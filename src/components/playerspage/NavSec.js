@@ -19,7 +19,7 @@ function NavSec(){
                             <li className="nav-item active ">
                                 <Link className="nav-link" to="/">Home</Link>
                             </li>
-                            <li className="nav-item active activebd">
+                            <li className="nav-item active ">
                                 <Link className="nav-link" to="/about">About</Link>
                             </li>
                             <li className="nav-item  active">
@@ -36,8 +36,8 @@ function NavSec(){
                                     <a className="dropdown-item" href="#">Item</a>
                                 </div>
                             </li>
-                            <li className="nav-item  active">
-                                <Link className="nav-link" to="/players">Players</Link>
+                            <li className="nav-item  active activebd">
+                                <a className="nav-link" href="#">Players</a>
                             </li>
                             <li className="nav-item  active">
                                 <a className="nav-link" href="#">Contact</a>

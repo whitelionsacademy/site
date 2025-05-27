@@ -1,8 +1,8 @@
 import React from "react";
-import faceimg from '../media/facebook-48.png'
-import twittimg from '../media/twitter48.png'
-import instaimg from '../media/instagram-94.png'
-import youimg from '../media/youtube-48.png'
+import fbicon from "../../images/facebook-48.png";
+import twicon from "../../images/twitter48.png";
+import inicon from "../../images/instagram-94.png";
+import yoicon from "../../images/youtube-48.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -35,10 +35,10 @@ function ContactSec(){
                 </div>
                 <div className="icons divs">
                     <h3 className="text tex">Follow Us</h3>
-                    <a href="#"><img src={faceimg} className="faceimg" /></a>
-                    <a href="#"><img src={twittimg} className="twittimg" /></a>
-                    <a href="#"><img src={instaimg} className="instaimg" /></a>
-                    <a href="#"><img src={youimg} className="youimg" /></a>
+                    <a href="#"><img src={fbicon} className="faceimg"alt="Facbook logo" /></a>
+                    <a href="#"><img src={twicon} className="twittimg" alt="Twitter logo" /></a>
+                    <a href="#"><img src={inicon} className="instaimg" alt="Instagram logo" /></a>
+                    <a href="#"><img src={yoicon} className="youimg" alt="Youtube logo" /></a>
                 </div>
             </div>
             <div className="copyright">

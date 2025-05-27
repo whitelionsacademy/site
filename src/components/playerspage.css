@@ -33,33 +33,6 @@
     display: inline-block;
 }
 
-.abtlandingSec {
-    background-color: rgba(255, 255, 255, 1);
-    background-image: url('../images/landimgabout0.jpeg');
-    background-blend-mode: luminosity;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 50%;
-    width: 100%;
-}
-
-.landImg {
-    text-align: center;
-    height: 30em;
-    width: 95%;
-    object-fit: cover;
-   
-}
-
-.abtlandingsecmid {
-    position: relative;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: center;
-    height: 100%;
-    padding-bottom: 10%;
-}
 .text {
     padding-left: 0%;
     font-size: 1.8em;
@@ -79,160 +52,305 @@
     font-size: 1rem
 }
 
-.missvis{
+.textPG{
+    background-color: #8d8888;
+    color: black;
+    padding-left: 3%;
+    font-weight: bold;
+    font-size: 1em;
+    height: 15%;
+}
+
+.tealandingSec {
     background-color: rgba(255, 255, 255, 1);
-    background-image: url('../images/image 5.png');
+    background-image: url('../images/landimgabout0.jpeg');
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 50%;
+    height: 100%;
     width: 100%;
 }
 
-.missflex{
+.teamlandingmid{
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+.teamlanding{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color:#f8eeee;
+    background-position: center;
+    padding: 2%;
+    height: 22em;
+    width: 95%;
+}
+
+.teawrt {
+    text-align: left;
+}
+
+.tealandingsecmid{
     display: flex;
     flex-wrap: wrap;
+}
+
+.tealandingsecmid span{
+    width: calc(16.66% - 10px);
+    margin: 5px;
+}
+
+.tealandingsecmid span img{
+    width: 100%;
+    height: 120%;
+}
+
+.tealandingsecmid span p{
+    display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-    padding: 40px;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    
-}
-.missionsection{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.missionwrt{
-    width: 50%;
-    padding: 3%;
-}
-
-.misimge{
-    width: 50%;
-    padding: 3%;
-}
-.missimg{
-    height: 100%;
-    width: 100%;
-    object-fit:cover;
-}
-
-.vision{
-    width: 100%;
-    height: 50%;
-    margin-top: 40px;
-}
-
-.visionsection{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.visionwrt{
-    width: 50%;
-    padding: 3%;
-}
-
-.vimge{
-    width: 50%;
-    padding: 3%;
-}
-
-.visimg{
-    height: 500px;
-    width: 100%;
-    object-fit:cover;
-}
-.journ{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    background-image: url('../images/journimg.jpeg');
-    background-color: rgba(255, 255, 255, 1);
-    background-blend-mode: luminosity;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 7%;
-}
-.journflex{
-    padding: 60px;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-}
-
-.journsection{
-    width: 100%;
-}
-
-.jourimge{
-    width: 100%;
-    padding: 1%;
-    
-}
-
-.journimg{
-    width: 100%;
-    height: 600px;
-    object-fit:cover;
-}
-
-.team{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height:auto;
-    background-color: rgba(255, 255, 255, 1);
-    background-blend-mode: luminosity;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 7%;
-
-}
-
-.teamflex{
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-}
-
-.teamsection{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.teamwrt{
-    width: 50%;
-    padding: 3%;
-}
-
-.name{
+    background-color: #585656;
+    height: 25%;
     font-weight: bold;
 }
 
-.teaimge{
-    width: 50%;
-    padding: 3%;
+.pointgua{
+    background-color: rgba(255, 255, 255, 1);
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    height: 50%;
+    width: 100%;
 }
 
-.teaimg{
-    height: 100%;
+.pointguarsec{
+    display: flex;
+    flex-direction: column;
+    background-color:#f8eeee;
+    background-position: center;
+    padding: 2%;
+    overflow: hidden;
+    height: 800px;
+    width: 95%;
+}
+
+.pointguasecmid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pointguasecmid span{
+    width: calc(25% - 10px);
+    margin: 5px;
+}
+
+.pointguasecmid span img{
     width: 100%;
-    object-fit:cover;
+    height: 100%;
+}
+
+.shootgua{
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url('../images/acadmainpic.jpeg');
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    height: 50%;
+    width: 100%;
+}
+
+.shootguarsec{
+    display: flex;
+    flex-direction: column;
+    background-color:#f8eeee;
+    background-position: center;
+    padding: 2%;
+    overflow: hidden;
+    height: 800px;
+    width: 95%;
+}
+
+.shootguasecmid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shootguasecmid span{
+    width: calc(25% - 10px);
+    margin: 5px;
+}
+
+.shootguasecmid span img{
+    width: 100%;
+    height: 100%;
+}
+
+.smallforward{
+    background-color: rgba(255, 255, 255, 1);
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    height: 50%;
+    width: 100%;
+}
+
+.smallforwasec{
+    display: flex;
+    flex-direction: column;
+    background-color:#f8eeee;
+    background-position: center;
+    padding: 2%;
+    overflow: hidden;
+    height: 800px;
+    width: 95%;
+}
+
+.smallforwasecmid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.smallforwasecmid span{
+    width: calc(25% - 10px);
+    margin: 5px;
+}
+
+.smallforwasecmid span img{
+    width: 100%;
+    height: 100%;
+}
+
+.powerfor{
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url('../images/progbg.jpeg');
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    height: 50%;
+    width: 100%;
+}
+
+.powerforwasec{
+    display: flex;
+    flex-direction: column;
+    background-color:#f8eeee;
+    background-position: center;
+    padding: 2%;
+    overflow: hidden;
+    height: 800px;
+    width: 95%;
+}
+
+.powerforwarsecmid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.powerforwarsecmid span{
+    width: calc(25% - 10px);
+    margin: 5px;
+}
+
+.powerforwarsecmid span img{
+    width: 100%;
+    height: 100%;
+}
+
+.center{
+    background-color: rgba(255, 255, 255, 1);
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    height: 50%;
+    width: 100%;
+}
+
+.centersec{
+    display: flex;
+    flex-direction: column;
+    background-color:#f8eeee;
+    background-position: center;
+    padding: 2%;
+    overflow: hidden;
+    height: 800px;
+    width: 95%;
+}
+
+.centersecmid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centersecmid span{
+    width: calc(25% - 10px);
+    margin: 5px;
+}
+
+.centersecmid span img{
+    width: 100%;
+    height: 100%;
+}
+
+.coach{
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url('../images/image 010.jpg');
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    height: 50%;
+    width: 100%;
+}
+
+.coachsec{
+    display: flex;
+    flex-direction: column;
+    background-color:#f8eeee;
+    background-position: center;
+    padding: 2%;
+    overflow: hidden;
+    height: 500px;
+    width: 95%;
+}
+
+.coachsecmid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coachsecmid span{
+    width: calc(25% - 10px);
+    margin: 5px;
+}
+
+.coachsecmid span img{
+    width: 100%;
+    height: 100%;
 }
 
 .contact{

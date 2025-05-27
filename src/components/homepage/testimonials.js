@@ -1,7 +1,7 @@
 import React from "react";
-import t1 from  '../media/t1.jpeg';
-import t2 from  '../media/t2.jpeg';
-import t3 from  '../media/t3.jpeg';
+import t1 from "../../images/images56.jpg";
+import t2 from "../../images/images556.jpg";
+import t3 from "../../images/images557.jpg";
 
 
 function Testmionials(){
